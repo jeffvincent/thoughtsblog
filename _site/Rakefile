@@ -8,6 +8,12 @@ task :parse_haml do
     for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
   })
   puts "done."
+  print "Assembling sass to css..."
+  system(%{
+    cd _sass &&
+    for f in *.sass; do [ -e $f ] && sass $f ../stylesheets/${f%.sass}.css; done
+  })
+  puts "done."
 end
 
 desc "Launch preview environment"
@@ -22,9 +28,9 @@ task :build do |task, args|
   system "jekyll"
 end
 
-desc "Deploy latest code in _site to production"
-task :deploy do
-  system(%{
-    rsync -avz --delete _site/ deploy@mikeferrier.com:/srv/www/mikeferrier.com/
-  })
-end
+#desc "Deploy latest code in _site to production"
+#task :deploy do
+#  system(%{
+#    rsync -avz --delete _site/ deploy@mikeferrier.com:/srv/www/mikeferrier.com/
+#  })
+#end

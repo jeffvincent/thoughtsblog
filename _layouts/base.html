@@ -3,18 +3,21 @@
   <head>
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type' />
     <meta content='Your Name' name='author' />
+    <link href='/stylesheets/screen.css' rel='stylesheet' type='text/css' />
     <title>
-      {{ page.title }}
+      A Beginner's Mind - {{ page.title }}
     </title>
   </head>
   <body>
-    <header>
-      <h1>
-        <a href='/'>{{ page.title }}</a>
-      </h1>
-    </header>
-    <section>
-      {{ content }}
-    </section>
+    <div id='container'>
+      <header>
+        <h1>
+          <a href='/'>A Beginner's Mind</a>
+        </h1>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+    </div>
   </body>
 </html>

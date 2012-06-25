@@ -1,0 +1,53 @@
+////////// vars //////////////
+
+$title_and_date_color: #999
+$text_color: #444
+
+
+//////////////////////////////
+/////////// fonts ////////////
+
+@import url(http://fonts.googleapis.com/css?family=Lato)
+
+/////////////////////////////
+
+*
+  font-family: 'Lato', Verdana, Helvetica, sans-serif
+
+h1,h2
+  margin: 0
+
+#container
+  width: 700px
+  margin: 30px auto
+header
+  border-bottom: 1px solid $title_and_date_color
+  h1
+    font-size: 58px
+    text-align: center
+    a
+      color: $title_and_date_color
+      text-decoration: none
+.related
+  ul
+    line-height: 200%
+
+section
+  .content
+    padding: 25px
+    #post
+      margin: 0 auto
+      .title_and_date
+        text-align: center
+        margin-bottom: 40px
+        h1
+          font-size: 40px
+          color: $text_color 
+        .date
+          font-size: 14px
+          color: $title_and_date_color
+      .post_content
+        color: $text_color
+        p
+          font-size: 15px
+          line-height: 26px

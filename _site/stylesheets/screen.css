@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+* {
+  font-family: "Lato", Verdana, Helvetica, sans-serif; }
+
+h1, h2 {
+  margin: 0; }
+
+#container {
+  width: 700px;
+  margin: 30px auto; }
+
+header {
+  border-bottom: 1px solid #999999; }
+  header h1 {
+    font-size: 58px;
+    text-align: center; }
+    header h1 a {
+      color: #999999;
+      text-decoration: none; }
+
+.related ul {
+  line-height: 200%; }
+
+section .content {
+  padding: 25px; }
+  section .content #post {
+    margin: 0 auto; }
+    section .content #post .title_and_date {
+      text-align: center;
+      margin-bottom: 40px; }
+      section .content #post .title_and_date h1 {
+        font-size: 40px;
+        color: #444444; }
+      section .content #post .title_and_date .date {
+        font-size: 14px;
+        color: #999999; }
+    section .content #post .post_content {
+      color: #444444; }
+      section .content #post .post_content p {
+        font-size: 15px;
+        line-height: 26px; }

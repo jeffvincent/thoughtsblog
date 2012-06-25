@@ -3,11 +3,13 @@
   %head
     %meta{ 'http-equiv' => 'Content-Type', :content => "text/html;charset=utf-8" }
     %meta{ :name => "author", :content => "Your Name" }
+    %link{ rel: 'stylesheet', type: 'text/css', href: '/stylesheets/screen.css' }
     %title
-      {{ page.title }}
+      A Beginner's Mind - {{ page.title }}
   %body
-    %header
-      %h1
-        %a{ href: "/" } {{ page.title }}
-    %section
-      {{ content }}
+    #container
+      %header
+        %h1
+          %a{ href: "/" } A Beginner's Mind
+      %section
+        {{ content }}
