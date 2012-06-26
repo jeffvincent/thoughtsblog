@@ -1,0 +1,11 @@
+_site/*
+DS-STOREGemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+_site/
+.bundle/
+.DS_Store
+bbin/
