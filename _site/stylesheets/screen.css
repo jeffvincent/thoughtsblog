@@ -1,41 +1,137 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
+/* line 20, ../_sass/screen.sass */
 * {
-  font-family: "Lato", Verdana, Helvetica, sans-serif; }
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+}
 
+/* line 23, ../_sass/screen.sass */
 h1, h2 {
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 26, ../_sass/screen.sass */
 #container {
   width: 700px;
-  margin: 30px auto; }
+  margin: 30px auto;
+}
 
+/* line 29, ../_sass/screen.sass */
 header {
-  border-bottom: 1px solid #999999; }
-  header h1 {
-    font-size: 58px;
-    text-align: center; }
-    header h1 a {
-      color: #999999;
-      text-decoration: none; }
+  border-bottom: 1px solid #999999;
+}
+/* line 31, ../_sass/screen.sass */
+header h1 {
+  font-size: 58px;
+  text-align: center;
+}
+/* line 34, ../_sass/screen.sass */
+header h1 a {
+  color: #999999;
+  text-decoration: none;
+}
 
+/* line 38, ../_sass/screen.sass */
 .related ul {
-  line-height: 200%; }
+  line-height: 200%;
+}
+/* line 40, ../_sass/screen.sass */
+.related li {
+  list-style-position: inside;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
+/* line 47, ../_sass/screen.sass */
 section .content {
-  padding: 25px; }
-  section .content #post {
-    margin: 0 auto; }
-    section .content #post .title_and_date {
-      text-align: center;
-      margin-bottom: 40px; }
-      section .content #post .title_and_date h1 {
-        font-size: 40px;
-        color: #444444; }
-      section .content #post .title_and_date .date {
-        font-size: 14px;
-        color: #999999; }
-    section .content #post .post_content {
-      color: #444444; }
-      section .content #post .post_content p {
-        font-size: 15px;
-        line-height: 26px; }
+  padding: 25px;
+}
+/* line 49, ../_sass/screen.sass */
+section .content #post {
+  margin: 0 auto;
+}
+/* line 51, ../_sass/screen.sass */
+section .content #post .post_banner_image {
+  text-align: center;
+}
+/* line 53, ../_sass/screen.sass */
+section .content #post .post_banner_image img {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+/* line 55, ../_sass/screen.sass */
+section .content #post .post_image {
+  text-align: center;
+}
+/* line 57, ../_sass/screen.sass */
+section .content #post .post_image img {
+  border: 4px solid #dddddd;
+}
+/* line 59, ../_sass/screen.sass */
+section .content #post .float_left {
+  float: left;
+}
+/* line 61, ../_sass/screen.sass */
+section .content #post .title_and_date {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 64, ../_sass/screen.sass */
+section .content #post .title_and_date h1 {
+  font-size: 40px;
+  color: #444444;
+}
+/* line 67, ../_sass/screen.sass */
+section .content #post .title_and_date .date {
+  font-size: 14px;
+  color: #999999;
+}
+/* line 70, ../_sass/screen.sass */
+section .content #post .post_content {
+  color: #444444;
+}
+/* line 72, ../_sass/screen.sass */
+section .content #post .post_content p {
+  font-size: 15px;
+  line-height: 26px;
+}
+/* line 75, ../_sass/screen.sass */
+section .content #post .post_content p a {
+  color: #bc7134;
+}
+/* line 77, ../_sass/screen.sass */
+section .content #post blockquote {
+  color: #bc7134;
+}
+/* line 79, ../_sass/screen.sass */
+section .content #post blockquote:hover {
+  color: #8a3f02;
+}
+/* line 81, ../_sass/screen.sass */
+section .content #post .opening_quote {
+  text-align: left;
+  font-size: 120%;
+  color: #121212;
+  font-weight: bold;
+  width: 252px;
+}
+
+/* line 87, ../_sass/screen.sass */
+.terminal {
+  color: lime;
+}
+
+/* line 90, ../_sass/screen.sass */
+.codez {
+  background: black;
+  padding-left: 10px;
+}
+
+/* line 94, ../_sass/screen.sass */
+code {
+  font-size: 1.1em;
+  font-family: monospace;
+  font-style: normal;
+  line-height: 1.2em;
+}

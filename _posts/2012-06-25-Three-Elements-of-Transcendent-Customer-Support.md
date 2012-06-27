@@ -1,5 +1,6 @@
-
-Three Elements of Transcendent Customer Support
+---
+layout: post
+---
 
 In the B2B context, customers choose to pay for two reasons: the product is valuable for their business, and it is easy to use. All the technology fades into the background,and the user is left accomplishing valuable stuff. When resources are extremely limited (like in a startup), your product alone won't satisfy both. Early adopters will push the edge of what the product can do, and self-professed 'non-techies' will need additional hand-holding to make the product valuable for them. There will also be rough edges; features that need to be re-written but there isn't the time to do so. 
 

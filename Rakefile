@@ -8,11 +8,10 @@ task :parse_haml do
     for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
   })
   puts "done."
-  print "Assembling sass to css..."
-  system(%{
-    cd _sass &&
-    for f in *.sass; do [ -e $f ] && sass $f ../stylesheets/${f%.sass}.css; done
-  })
+  print "Compiling the compass ..."
+  system "compass compile"
+#cd _sass &&
+#for f in *.sass; do [ -e $f ] && sass $f ../stylesheets/${f%.sass}.css; done
   puts "done."
 end
 

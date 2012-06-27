@@ -1,5 +1,6 @@
-
-** Don't Lose Focus on What You Love **
+---
+layout: post
+---
 
 This is a lesson that took me years and many mistakes to learn. In sharing it, I hope to help others identify if they are currently going down this path. 
 
