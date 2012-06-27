@@ -1,2 +1,15 @@
-!_site/*
-*
+!_site/
+_import/
+_includes/
+_layouts/
+_plugins/
+_posts/
+_sass/
+sass/
+stylesheets/
+_config.yml
+config.rb
+Gemfile
+index.html
+Rakefile
+README.md

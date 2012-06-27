@@ -5,3 +5,6 @@ markdown: rdiscount
 
 auto: true
 rdiscount extensions: [smart]
+exclude:
+- .gitignore
+- README.md
