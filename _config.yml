@@ -1,7 +1,7 @@
 markdown: rdiscount
 #permalink: /:title.html
 #base_url: http://jeffvincent.me
-#description: "because it's wonderful to have a beginner's mind"
+#description: "it's wonderful to have a beginner's mind"
 
 auto: true
 rdiscount extensions: [smart]

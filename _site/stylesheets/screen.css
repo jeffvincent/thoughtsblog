@@ -116,19 +116,23 @@ section .content #post .opening_quote {
   font-weight: bold;
   width: 252px;
 }
-
 /* line 87, ../_sass/screen.sass */
+section .content #post .comments {
+  margin-top: 60px;
+}
+
+/* line 89, ../_sass/screen.sass */
 .terminal {
   color: lime;
 }
 
-/* line 90, ../_sass/screen.sass */
+/* line 92, ../_sass/screen.sass */
 .codez {
   background: black;
   padding-left: 10px;
 }
 
-/* line 94, ../_sass/screen.sass */
+/* line 96, ../_sass/screen.sass */
 code {
   font-size: 1.1em;
   font-family: monospace;
