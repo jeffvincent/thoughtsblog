@@ -1,9 +1,10 @@
 markdown: rdiscount
-#permalink: /:title.html
-#base_url: http://jeffvincent.me
-#description: "it's wonderful to have a beginner's mind"
-
-auto: true
+permalink: /:month-:year/:title.html
+multiviews: true
+haml: true
+sass: true
+base_url: http://jeffvincent.me
+description: "it's wonderful to have a beginner's mind"
 rdiscount extensions: [smart]
 exclude:
 - .gitignore

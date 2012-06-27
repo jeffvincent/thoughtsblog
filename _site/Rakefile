@@ -13,6 +13,7 @@ task :parse_haml do
   print "Compiling the compass ..."
   system "compass compile"
   puts "done."
+  system "cp .htaccess _site/"
 end
 
 desc "Launch preview environment"

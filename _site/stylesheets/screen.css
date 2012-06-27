@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 /* line 20, ../_sass/screen.sass */
-* {
+body {
   font-family: "Lato", Verdana, Helvetica, sans-serif;
 }
 
@@ -140,21 +140,27 @@ section .content #post .comments {
   margin-top: 60px;
 }
 
-/* line 100, ../_sass/screen.sass */
+/* line 101, ../_sass/screen.sass */
 .terminal {
   color: lime;
 }
 
 /* line 103, ../_sass/screen.sass */
+.comment {
+  color: red;
+}
+
+/* line 106, ../_sass/screen.sass */
 .codez {
   background: black;
+  padding: 5px;
   padding-left: 10px;
 }
 
-/* line 107, ../_sass/screen.sass */
+/* line 111, ../_sass/screen.sass */
 code {
-  font-size: 1.1em;
+  font-size: 13px;
   font-family: monospace;
   font-style: normal;
-  line-height: 1.2em;
+  line-height: 16px;
 }
