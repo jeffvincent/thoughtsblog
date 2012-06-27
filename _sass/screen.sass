@@ -3,7 +3,7 @@
 $title_and_date_color: #999
 $text_color: #444
 $emphasis_color: #BC7134
-
+$wistia_blue: #81c2f0
 
 //////////////////////////////
 /////////// fonts ////////////
@@ -34,6 +34,15 @@ header
     a
       color: $title_and_date_color
       text-decoration: none
+  #bio
+    position: absolute
+    width: 150px
+    right: 150px
+    p
+      text-align: right
+      color: $title_and_date_color
+      a
+        color: $wistia_blue
 .related
   ul
     line-height: 200%
@@ -84,8 +93,11 @@ section
         color: $text_color - 50
         font-weight: bold
         width: 252px
+      .share
+        margin-left: 124px
       .comments
         margin-top: 60px
+
 .terminal
   color: #0f0
 
