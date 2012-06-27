@@ -4,9 +4,10 @@
     %meta{ 'http-equiv' => 'Content-Type', :content => "text/html;charset=utf-8" }
     %meta{ :name => "author", :content => "Your Name" }
     %link{ rel: 'stylesheet', type: 'text/css', href: '/stylesheets/screen.css' }
-    %script{ src: 'includes/g_analytics.js' }
     %title
       A Beginner's Life - {{ page.title }}
+    :plain
+      {% include g_analytics.js %}
   %body
     #container
       %header
