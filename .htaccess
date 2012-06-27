@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]+\s([^\s]+)\.html\s
+RewriteRule .* %1 [R=301,L]
