@@ -30,5 +30,10 @@ end
 
 desc "Deploy latest code in _site to production"
 task :deploy do
-  system "git push origin master && git push heroku master"
+  print "updating github"
+  system "git push origin master"
+  puts "done."
+  print "pushing to heroku"
+  system "git push heroku master"
+  puts "done."
 end

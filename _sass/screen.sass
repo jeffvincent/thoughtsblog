@@ -4,6 +4,7 @@ $title_and_date_color: #999
 $text_color: #444
 $emphasis_color: #BC7134
 $wistia_blue: #81c2f0
+$index_link_color: #1B56E0
 
 //////////////////////////////
 /////////// fonts ////////////
@@ -44,6 +45,12 @@ header
     white-space: nowrap
     overflow: hidden
     text-overflow: ellipsis
+
+.index_post_title
+  text-decoration: none
+  color: $index_link_color
+  &:hover
+    color: $index_link_color - 50
 
 section
   width: 920px
