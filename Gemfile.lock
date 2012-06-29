@@ -1,18 +1,18 @@
 GIT
-  remote: https://github.com/stammy/jekyll
-  revision: 452b827b7d5c1373ae72048e4a04f4408eb3659b
+  remote: https://github.com/adaoraul/rack-jekyll.git
+  revision: 99dca1bd8ba0e475b2fb416272c785bb64e5016d
   specs:
-    jekyll (0.10.0)
-      classifier (>= 1.3.1)
-      directory_watcher (>= 1.1.1)
-      liquid (>= 1.9.0)
-      maruku (>= 0.5.9)
+    rack-jekyll (0.4.0)
+      jekyll (~> 0.11.0)
+      rack (~> 1.4.1)
 
 GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.9)
     addressable (2.2.8)
+    albino (1.3.3)
+      posix-spawn (>= 0.3.6)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
     compass (0.10.6)
@@ -29,7 +29,15 @@ GEM
       rubyzip
     heroku-api (0.2.6)
       excon (~> 0.14.0)
+    jekyll (0.11.2)
+      albino (~> 1.3)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.13)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
     kgio (2.7.4)
+    kramdown (0.13.7)
     launchy (2.1.0)
       addressable (~> 2.2.6)
     liquid (2.3.0)
@@ -37,11 +45,8 @@ GEM
       syntax (>= 1.0.0)
     mime-types (1.19)
     netrc (0.7.5)
-    pg (0.14.0)
+    posix-spawn (0.3.6)
     rack (1.4.1)
-    rack-jekyll (0.3.5)
-      jekyll
-      rack
     raindrops (0.10.0)
     rdiscount (1.6.8)
     rest-client (1.6.7)
@@ -62,9 +67,8 @@ DEPENDENCIES
   compass (~> 0.10.6)
   haml (~> 3.1.6)
   heroku (~> 2.28.7)
-  jekyll!
-  pg
-  rack-jekyll
+  jekyll
+  rack-jekyll!
   rdiscount
   sass (~> 3.1.19)
   unicorn (~> 4.3.1)
