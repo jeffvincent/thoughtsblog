@@ -25,12 +25,10 @@ end
 desc "Build site"
 task :build do |task, args|
   Rake::Task["parse_haml"].invoke
-  system "jekyll"
+  system "bundle exec jekyll"
 end
 
-#desc "Deploy latest code in _site to production"
-#task :deploy do
-#  system(%{
-#    rsync -avz --delete _site/ deploy@mikeferrier.com:/srv/www/mikeferrier.com/
-#  })
-#end
+desc "Deploy latest code in _site to production"
+task :deploy do
+  system "git push origin master && git push heroku master"
+end
