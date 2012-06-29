@@ -24,9 +24,11 @@ h1,h2
   margin: 0
 
 #container
-  width: 700px
+  width: 900px
   margin: 30px auto
 header
+  width: 700px
+  margin: 0 auto
   border-bottom: 1px solid $title_and_date_color
   h1
     font-size: 58px
@@ -34,15 +36,6 @@ header
     a
       color: $title_and_date_color
       text-decoration: none
-  #bio
-    position: absolute
-    width: 150px
-    right: 150px
-    p
-      text-align: right
-      color: $title_and_date_color
-      a
-        color: $wistia_blue
 .related
   ul
     line-height: 200%
@@ -53,7 +46,12 @@ header
     text-overflow: ellipsis
 
 section
+  width: 920px
+  margin: 0 auto
+  margin-left: 104px
   .content
+    display: inline-block
+    width: 625px
     padding: 25px
     #post
       margin: 0 auto
@@ -97,6 +95,21 @@ section
         margin-left: 124px
       .comments
         margin-top: 60px
+  .right_col
+    width: 200px
+    text-align: right
+    display: inline-block
+    vertical-align: top
+    margin: 8px 0 0 42px
+    #bio
+      position: absolute
+      width: 150px
+      right: 150px
+      p
+        text-align: right
+        color: $title_and_date_color
+        a
+          color: $wistia_blue
 
 .terminal
   color: #0f0
