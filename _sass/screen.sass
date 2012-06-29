@@ -39,8 +39,8 @@ header
 .related
   ul
     line-height: 200%
+    padding: 0
   li
-    list-style-position: inside
     white-space: nowrap
     overflow: hidden
     text-overflow: ellipsis
@@ -48,11 +48,22 @@ header
 section
   width: 920px
   margin: 0 auto
-  margin-left: 104px
+  margin-left: 100px
   .content
     display: inline-block
-    width: 625px
+    width: 650px
     padding: 25px
+    .index_list
+      list-style-position: inside
+      display: inline-block
+    .title
+      width: 70%
+    .date
+      text-align: right
+      width: 29%
+    .date_span
+      font-size: 14px
+      color: $title_and_date_color
     #post
       margin: 0 auto
       .post_banner_image
@@ -100,7 +111,7 @@ section
     text-align: right
     display: inline-block
     vertical-align: top
-    margin: 8px 0 0 42px
+    margin: 8px 0 0 17px
     #bio
       width: 150px
       position: relative

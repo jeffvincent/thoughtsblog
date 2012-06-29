@@ -1,6 +1,6 @@
 
 ## Building a Jekyll Site (and hosting it on Heroku) ##
-*...the essential links
+*...the essential links*
 
 ### building a Jekyll site ###
   http://paulstamatiou.com/how-to-wordpress-to-jekyll
