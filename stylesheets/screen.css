@@ -144,9 +144,9 @@ section .right_col {
 }
 /* line 104, ../_sass/screen.sass */
 section .right_col #bio {
-  position: absolute;
   width: 150px;
-  right: 150px;
+  position: relative;
+  right: -46px;
 }
 /* line 108, ../_sass/screen.sass */
 section .right_col #bio p {
