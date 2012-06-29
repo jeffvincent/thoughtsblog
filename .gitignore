@@ -1,5 +1,6 @@
 _site/*
-DS-STOREGemfile.lock
+DS-STORE
+Gemfile.lock
 test/dest
 *.gem
 pkg/
