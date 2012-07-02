@@ -60,9 +60,15 @@ section
     display: inline-block
     width: 650px
     padding: 25px
+    /* for IE */
+    zoom: 1
+    *display: inline
     .index_list
       list-style-position: inside
       display: inline-block
+      /* for IE */
+      zoom: 1
+      *display: inline
     .title
       width: 70%
     .date
@@ -119,6 +125,9 @@ section
     display: inline-block
     vertical-align: top
     margin: 8px 0 0 17px
+    /* for IE */
+    zoom: 1
+    *display: inline
     #bio
       width: 150px
       position: relative
