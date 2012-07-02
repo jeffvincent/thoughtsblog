@@ -4,6 +4,9 @@
 
 ### building a Jekyll site ###
   http://paulstamatiou.com/how-to-wordpress-to-jekyll
+  http://devart.org/jeykll-on-heroku-with-sinatra
+  http://baldowl.github.com/2010/04/13/working-with-heroku-jekyll-and-sinatra.html !! didn't follow this, but it was interesting
+  http://jstorimer.com/2009/12/29/jekyll-on-heroku.html  !! didn't follow this, but it was interesting
 
 ### using Heroku ###
   http://www.mwmanning.com/2011/11/29/Run-Your-Jekyll-Site-On-Heroku.html
