@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'optparse'
+require 'yaml'
+
 
 # http://mikeferrier.com/2011/04/29/blogging-with-jekyll-haml-sass-and-jammit/
 desc "Parse haml layouts"
@@ -36,4 +40,27 @@ task :deploy do
   puts "pushing to heroku"
   system "git push heroku master"
   puts "done."
+end
+
+desc "Create a new blog post"
+task :np do
+  OptionParser.new.parse!
+  ARGV.shift
+  title = ARGV.join(' ')
+
+  puts "creating a new post, entitled #{title}"
+
+  path = "_posts/#{Date.today}-#{title.downcase.gsub(/[^[:alnum:]]+/, '-')}.md"
+
+  if File.exist?(path)
+  	puts "[WARN] File exists - skipping create"
+  else
+    File.open(path, "w") do |file|
+      file.puts YAML.dump({'layout' => 'post', 'title' => title})
+      file.puts "---"
+    end
+  end
+
+  exit 1
+
 end
