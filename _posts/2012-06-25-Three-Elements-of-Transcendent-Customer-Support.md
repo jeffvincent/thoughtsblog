@@ -36,5 +36,6 @@ Text-based communication, like email and instant messaging (we use [Olark]("http
 While there is more that goes into support on a daily basis (including a discussion of what tools we use, which could be an article in itself) these principles have helped us grow a business with awesome (and happy) customers.
 
 
-Are you someone who would thrive in a support environment? Check it - we're hiring a [Customer Champion Apprentice]( "http://wistia.theresumator.com/apply/kfxfXl/Customer-Champion-Apprentice.html" ).
+Are you someone who would thrive in a support environment? Check it - we're hiring a [Customer Champion]( "http://wistia.theresumator.com/apply/kfxfXl/Customer-Champion-Apprentice.html" ).
 
+**Update:** this post has been reproduced even more awesome-ly by the guys over at [Help Scout]( "https://www.helpscout.net/blog/three-elements-of-transcendent-customer-support/" ).
