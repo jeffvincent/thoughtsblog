@@ -147,13 +147,10 @@ section .content #post .post_content p a {
 }
 /* line 108, ../_sass/screen.sass */
 section .content #post blockquote {
-  color: #bc7134;
+  padding-left: 18px;
+  border-left: 10px solid #bc7134;
 }
-/* line 110, ../_sass/screen.sass */
-section .content #post blockquote:hover {
-  color: #8a3f02;
-}
-/* line 112, ../_sass/screen.sass */
+/* line 111, ../_sass/screen.sass */
 section .content #post .opening_quote {
   text-align: left;
   font-size: 120%;
@@ -161,15 +158,15 @@ section .content #post .opening_quote {
   font-weight: bold;
   width: 252px;
 }
-/* line 118, ../_sass/screen.sass */
+/* line 117, ../_sass/screen.sass */
 section .content #post .share {
   margin-left: 124px;
 }
-/* line 120, ../_sass/screen.sass */
+/* line 119, ../_sass/screen.sass */
 section .content #post .comments {
   margin-top: 60px;
 }
-/* line 122, ../_sass/screen.sass */
+/* line 121, ../_sass/screen.sass */
 section .right_col {
   width: 200px;
   text-align: right;
@@ -180,45 +177,45 @@ section .right_col {
   zoom: 1;
   *display: inline;
 }
-/* line 131, ../_sass/screen.sass */
+/* line 130, ../_sass/screen.sass */
 section .right_col #bio {
   width: 150px;
   position: relative;
   right: -46px;
 }
-/* line 135, ../_sass/screen.sass */
+/* line 134, ../_sass/screen.sass */
 section .right_col #bio p {
   text-align: right;
   color: #999999;
 }
-/* line 138, ../_sass/screen.sass */
+/* line 137, ../_sass/screen.sass */
 section .right_col #bio p a {
   color: #81c2f0;
 }
 
-/* line 141, ../_sass/screen.sass */
+/* line 140, ../_sass/screen.sass */
 .terminal {
   color: lime;
 }
 
-/* line 143, ../_sass/screen.sass */
+/* line 142, ../_sass/screen.sass */
 .comment {
   color: red;
 }
 
-/* line 146, ../_sass/screen.sass */
+/* line 145, ../_sass/screen.sass */
 .bottom_border {
   border-bottom: 1px solid #999999;
 }
 
-/* line 149, ../_sass/screen.sass */
+/* line 148, ../_sass/screen.sass */
 .codez {
   background: black;
   padding: 5px;
   padding-left: 10px;
 }
 
-/* line 154, ../_sass/screen.sass */
+/* line 153, ../_sass/screen.sass */
 code {
   font-size: 13px;
   font-family: monospace;
