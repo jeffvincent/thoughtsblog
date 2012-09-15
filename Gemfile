@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem "jekyll"
 gem "sass"
 gem "haml", "~> 3.1.6"
-gem "compass", "~> 0.11.5"
+gem "compass"
 gem "RedCloth"
 gem "heroku", "~> 2.28.7"
 gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git'

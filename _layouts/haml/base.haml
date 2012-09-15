@@ -17,9 +17,10 @@
             %h1
               %a{ href: "/" } A Beginner's Life
       .row
-        .three.columns.push-nine
+        .three.columns.push-eight.end
           .right_col
-            {% include bio.html %}
+            .nine.columns.offset-by-three
+              {% include bio.html %}
         .nine.columns.pull-three.center-content
           %section
             {{ content }}
