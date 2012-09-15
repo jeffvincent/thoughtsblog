@@ -4,16 +4,20 @@ title: A Beginner's Life
 ---
 
 <div class="content">
-  <div class="related">
-    <ul>
-      {% for post in site.posts %}
-      <li class='index_list title'>
-        <a class="index_post_title" href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      <li class='index_list date'>
-        <span class="date_span">{{ post.date | date: "%B %e, %Y" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+  <ul class="post_index">
+    {% for post in site.posts %}
+    <div class="row">
+      <div class="nine columns">
+        <li class='post_index_list_item title'>
+          <a class="post_index_title" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      </div>
+      <div class="three columns">
+        <li class='post_index_list_item date'>
+          <span class="date_span">{{ post.date | date: "%B %e, %Y" }}</span>
+        </li>
+      </div>
+    </div>
+    {% endfor %}
+  </ul>
 </div>

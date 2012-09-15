@@ -21,20 +21,13 @@ task :pre_jekyll do
   })
   puts "done."
 
-  print "  Rendering Haml static pages ... "
-  system(%{
-    cd _static_pages && 
-    for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
-  })
-  puts "done."
-
   puts "All done."
 
 end
 
 desc "Launch preview environment"
 task :preview => :pre_jekyll do
-  system "foreman start"
+  system "foreman start --procfile Procfile2"
 end
 
 desc "Build the site"

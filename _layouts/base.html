@@ -2,8 +2,9 @@
 <html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
   <head>
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type' />
-    <meta content='Your Name' name='author' />
-    <link href='/stylesheets/screen.css' rel='stylesheet' type='text/css' />
+    <meta content='Jeff Vincent' name='author' />
+    <link href='/stylesheets/screen.css' rel='stylesheet' />
+    <link href='/stylesheets/foundation.css' rel='stylesheet' />
     <title>
       A Beginner's Life - {{ page.title }}
     </title>
@@ -11,17 +12,27 @@
   </head>
   <body>
     <div id='container'>
-      <header class='bottom_border'>
-        <h1>
-          <a href='/'>A Beginner's Life</a>
-        </h1>
-      </header>
-      <section>
-        {{ content }}
-        <div class='right_col'>
-          {% include bio.html %}
+      <div class='row'>
+        <div class='nine columns center-content'>
+          <header class='bottom_border' id='main_header'>
+            <h1>
+              <a href='/'>A Beginner's Life</a>
+            </h1>
+          </header>
         </div>
-      </section>
+      </div>
+      <div class='row'>
+        <div class='three columns push-nine'>
+          <div class='right_col'>
+            {% include bio.html %}
+          </div>
+        </div>
+        <div class='nine columns pull-three center-content'>
+          <section>
+            {{ content }}
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 </html>

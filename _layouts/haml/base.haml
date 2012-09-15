@@ -2,18 +2,25 @@
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml', 'xml:lang' => 'en', :lang => 'en' }
   %head
     %meta{ 'http-equiv' => 'Content-Type', :content => "text/html;charset=utf-8" }
-    %meta{ :name => "author", :content => "Your Name" }
-    %link{ rel: 'stylesheet', type: 'text/css', href: '/stylesheets/screen.css' }
+    %meta{ :name => "author", :content => "Jeff Vincent" }
+    %link{ rel: 'stylesheet', href: '/stylesheets/screen.css' }
+    %link{ rel: 'stylesheet', href: '/stylesheets/foundation.css' }
     %title
       A Beginner's Life - {{ page.title }}
     :plain
       {% include g_analytics.js %}
   %body
     #container
-      %header.bottom_border
-        %h1
-          %a{ href: "/" } A Beginner's Life
-      %section
-        {{ content }}
-        .right_col
-          {% include bio.html %}
+      .row
+        .nine.columns.center-content
+          %header#main_header.bottom_border
+            %h1
+              %a{ href: "/" } A Beginner's Life
+      .row
+        .three.columns.push-nine
+          .right_col
+            {% include bio.html %}
+        .nine.columns.pull-three.center-content
+          %section
+            {{ content }}
+
