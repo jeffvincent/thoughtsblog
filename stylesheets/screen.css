@@ -124,12 +124,13 @@ ul.post_index li {
   padding: 0 0 0 18px;
   border-left: 10px solid #bc7134;
   margin-left: 0;
+  font-style: italic;
 }
-/* line 123, ../_sass/screen.sass */
+/* line 124, ../_sass/screen.sass */
 #post .post_content blockquote p {
   margin: 0;
 }
-/* line 125, ../_sass/screen.sass */
+/* line 126, ../_sass/screen.sass */
 #post .opening_quote {
   text-align: left;
   font-size: 120%;
@@ -137,45 +138,45 @@ ul.post_index li {
   width: 252px;
   color: #373737;
 }
-/* line 131, ../_sass/screen.sass */
+/* line 132, ../_sass/screen.sass */
 #post .comments {
   margin-top: 50px;
 }
-/* line 135, ../_sass/screen.sass */
+/* line 136, ../_sass/screen.sass */
 #post .post_banner_image {
   text-align: center;
 }
-/* line 137, ../_sass/screen.sass */
+/* line 138, ../_sass/screen.sass */
 #post .post_banner_image img {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 139, ../_sass/screen.sass */
+/* line 140, ../_sass/screen.sass */
 #post .post_image {
   text-align: center;
 }
-/* line 141, ../_sass/screen.sass */
+/* line 142, ../_sass/screen.sass */
 #post .post_image img {
   border: 4px solid #dddddd;
 }
 
-/* line 146, ../_sass/screen.sass */
+/* line 147, ../_sass/screen.sass */
 .terminal {
   color: lime;
 }
 
-/* line 148, ../_sass/screen.sass */
+/* line 149, ../_sass/screen.sass */
 .comment {
   color: red;
 }
 
-/* line 151, ../_sass/screen.sass */
+/* line 152, ../_sass/screen.sass */
 .bottom_border {
   border-bottom: 1px solid #999999;
 }
 
-/* line 154, ../_sass/screen.sass */
+/* line 155, ../_sass/screen.sass */
 .codez {
   background: black;
   padding: 5px;
@@ -183,7 +184,7 @@ ul.post_index li {
   margin: 25px 0;
 }
 
-/* line 160, ../_sass/screen.sass */
+/* line 161, ../_sass/screen.sass */
 code {
   font-size: 13px;
   font-family: monospace;
@@ -191,34 +192,34 @@ code {
   line-height: 16px;
 }
 
-/* line 168, ../_sass/screen.sass */
+/* line 169, ../_sass/screen.sass */
 .float_left {
   float: left;
 }
 
-/* line 173, ../_sass/screen.sass */
+/* line 174, ../_sass/screen.sass */
 .right_col {
   text-align: right;
   vertical-align: top;
   margin-top: 32px;
 }
-/* line 177, ../_sass/screen.sass */
+/* line 178, ../_sass/screen.sass */
 .right_col #bio {
   position: relative;
 }
 @media (max-width: 768px) {
-  /* line 177, ../_sass/screen.sass */
+  /* line 178, ../_sass/screen.sass */
   .right_col #bio {
     text-align: center;
     width: 100%;
   }
 }
-/* line 182, ../_sass/screen.sass */
+/* line 183, ../_sass/screen.sass */
 .right_col #bio p {
   font-size: 1.5rem;
   color: #999999;
 }
-/* line 185, ../_sass/screen.sass */
+/* line 186, ../_sass/screen.sass */
 .right_col #bio p a {
   color: #81c2f0;
 }
