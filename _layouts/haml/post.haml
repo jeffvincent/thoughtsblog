@@ -11,7 +11,11 @@ share: true
       %span.date {{ page.date | date: "%B %d, %Y" }}
     .post_content
       {{ content }}
-    .share
-      {% include shareaholic.html %}
-    .comments
-      {% include disqus.html %}
+    .row
+      .seven.columns.centered
+        .share
+          {% include shareaholic.html %}
+    .row
+      .twelve.columns
+        .comments
+          {% include disqus.html %}
