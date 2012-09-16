@@ -6,7 +6,7 @@ category:
 tags: [startups, onboarding]
 ---
 
-Two things we are focused on doing well - growing out customer base, and growing our team. This requires a lot of on-boarding. We are in the midst of a change in how we on-board, so I wanted to take a minute to talk about where we're coming *from*, and why I think we're going in the right direction.
+Two things we are focused on doing well - growing our customer base, and growing our team. This requires a lot of on-boarding. We are in the midst of a change in how we on-board, so I wanted to take a minute to talk about where we're coming *from*, and why I think we're going in the right direction.
 
 ## Early Days
 
