@@ -22,7 +22,7 @@ From an app standpoint, things were comparably slow. New users could get access 
 
 <blockquote>Scalable communication leads to more predictable growth</blockquote>
 
-It became clear by late last year that we needed a change. Projects weren't being picked up because it was unclear *who* should handle them, and there were too many cooks in the kitchen everywhere to get things done effectively. This led to tough conversations about individual responsibilities within the company, and resulted in new, clearer lines being drawn. These conversations were clearing up some organizational debt. By making resposibilities clear, they gave increased autonomy to each person and team within a better defined sandbox. 
+It became clear by late last year that we needed a change. Projects weren't being picked up because it was unclear *who* should handle them, and there were too many cooks in the kitchen everywhere to get things done effectively. This led to tough conversations about individual responsibilities within the company, and resulted in new, clearer lines being drawn. These conversations were clearing up some organizational debt. By making responsibilities clear, they gave increased autonomy to each person and team within a better defined sandbox. 
 
 From marketing, to sales, to product - we saw speed and efficiency up across the board. Max took over the Sales inbox, and has done a great job managing incoming traffic. Adam is heading up new business, leading us to new frontiers. Clear missions for each team also made identifying needed roles and bringing on new folks easier.
 
