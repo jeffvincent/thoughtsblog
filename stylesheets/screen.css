@@ -225,11 +225,20 @@ code {
   }
 }
 /* line 192, ../_sass/screen.sass */
+.right_col #bio #bio_pic {
+  background: transparent url(http://gravatar.com/avatar/236b71872405f00ef210cded00a8fd93) no-repeat;
+  height: 80px;
+  margin: 0px auto 5px;
+  width: 80px;
+}
+/* line 197, ../_sass/screen.sass */
 .right_col #bio p {
   font-size: 1.5rem;
   color: #999999;
+  text-align: center;
+  margin-bottom: 10px;
 }
-/* line 195, ../_sass/screen.sass */
+/* line 202, ../_sass/screen.sass */
 .right_col #bio p a {
   color: #81c2f0;
 }
