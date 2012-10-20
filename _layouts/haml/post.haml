@@ -1,7 +1,6 @@
 \---
 layout: base
 comments: true
-share: true
 \---
 
 .content
@@ -11,10 +10,6 @@ share: true
       %span.date {{ page.date | date: "%B %d, %Y" }}
     .post_content
       {{ content }}
-    .row
-      .seven.columns.centered
-        .share
-          {% include shareaholic.html %}
     .row
       .twelve.columns
         .comments
