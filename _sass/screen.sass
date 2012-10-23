@@ -50,6 +50,9 @@ $padding: 25px
   border-left: 10px solid rgba($color, $opacity)
   margin-left: 0
 
+=bottom_border($color: $text_color)
+  border-bottom: 1px solid #DDD
+
 // Common Shtuff //
 
 body,h1,h2,h3,p,a,li
@@ -64,14 +67,17 @@ a:hover
 #container
   margin: $padding auto
 
-header#main_header h1
-  +fontskis
-  font-size: 58px
-  text-align: center
-  margin-bottom: -8px
-  a, a:hover
-    color: $main_title_and_date_color
-    text-decoration: none
+#main_header
+  border-bottom: 1px solid #DDD  
+  h1
+    +fontskis
+    font-size: 58px
+    text-align: center
+    margin-bottom: -8px
+    a, a:hover
+      color: #DDD
+      text-decoration: none
+      +text-shadow(-1px -1px 0 rgba(#141414, 0.3))
 
 .content
   font-size: 1.5rem
@@ -163,8 +169,6 @@ ul.post_index
 .comment
   color: red
 
-.bottom_border
-  border-bottom: 1px solid $main_title_and_date_color
 
 .codez
   background: black
