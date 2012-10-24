@@ -1,45 +1,36 @@
-## Jekyll Base ##
-This is a base that will ge you started with jekyll create by Daniel McGraw (@danielmcgraw).
+# A Beginner's Life #
 
-### Usage ###
-Check out my [post series](http://danielmcgraw.com/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1/) on how to use Jekyll Base to create your own Jekyll powered blog.
+## Jekyll ##
 
-### Structure ###
-<pre>
-.  
-|-- .gitignore  
-|-- README  
-|-- _config.yml  
-|-- _layouts  
-|   |-- layout.html  
-|   `-- post.html  
-|-- _posts  
-|   `-- 1985-10-26-Test-Post.md  
-`-- index.html  
-</pre>
+This blog is built on Jekyll: a static site generator based in Ruby. [Read more](https://github.com/mojombo/jekyll).
 
-Lets take a look at what each of these do.
+## Learn to use Jekyll
 
-### .gitignore ###
-This file is not manditory for a proper Jekyll install, but is useful if you are like me and use a mac (ignore the DS_Store) or emacs (ignore the autosave files). If you have any other files or folders that need ignoring toss them in here.
+If you like the look of this (it's pretty simple, which I like) here are some resources to check:
 
-### README ###
-This file is not manditory for a proper Jekyll install, but is recomended by GitHub for all repositories. Toss a simple description of your site and its make up in here if you would like.
+### building a Jekyll site ###
+  [Getting Started with Jekyll](http://danielmcgraw.com/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1/)
+  http://paulstamatiou.com/how-to-wordpress-to-jekyll
+  http://devart.org/jeykll-on-heroku-with-sinatra
+  http://baldowl.github.com/2010/04/13/working-with-heroku-jekyll-and-sinatra.html !! didn't follow this, but it was interesting
+  http://jstorimer.com/2009/12/29/jekyll-on-heroku.html  !! didn't follow this, but it was interesting
 
-### _config.yml ###
-This is where you will be putting your Jekyll configuration options. If this file is omitted Jekyll will use its defualts to build your site. You can find the configuration options and default configuration [here](https://github.com/mojombo/jekyll/wiki/configuration).
+### using Liquid/YAML ###
+  [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/yaml-front-matter)
+  http://blog.omgmog.net/post/adding-more-post-metadata-to-jekyll-with-yaml/
+  https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
-### _layouts ###
-This folder is where you will be putting all your layout templates. I have added layout.html and post.html so you can get an idea of how they are strutured and used. 
+### using Heroku ###
+  http://www.mwmanning.com/2011/11/29/Run-Your-Jekyll-Site-On-Heroku.html
+  http://rubyist-journal.com/tag/procfile/
+  https://github.com/adaoraul/rack-jekyll
+  https://devcenter.heroku.com/articles/procfile
+  https://github.com/markpundsack/jekyll-heroku
+  https://github.com/mattmanning/mattmanning.github.com
 
-#### layout.html ####
-This is the base template for our site. There are no naming conventions, but if you choose to change this file's name make sure you update all the layout references in your file's YAML Front Matter blocks.
+### meet Unicorn ###
+  https://github.com/blog/517-unicorn
 
-#### post.html ####
-This is the bast template for each of our posts. Again there are no naming conventions, but make sure you update the required files YAML Front Matter blocks if you do change its name. To learn more about the use of YAML Front Matter check out [this page](https://github.com/mojombo/jekyll/wiki/yaml-front-matter).
+### using unicorn with Heroku ###
+  http://kuon.goyman.com/2012/heroku_unicorn/
 
-### _posts ###
-This is your posts folder. You will be putting your blog posts in here. Notice the naming convention that is used. You will want to name your files with the the publish date preceeding the posts title all seperated by dashes (Year-Month-Day-Title-Of-The-Post.md). The post date that you see is pulled straight from this filename so make sure you lable your files right.
- 
-### index.html ###
-This is used to render your sites index. It is essntially a post loop wrapped in your base layout.
