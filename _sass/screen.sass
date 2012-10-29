@@ -94,6 +94,9 @@ ul.post_index
     text-overflow: ellipsis
 .post_index_list_item
   list-style-position: inside
+  &.title
+    +breakpoint(small-screen)
+      margin-bottom: 0
 .post_index_title
   text-decoration: none
   color: $index_link_color
