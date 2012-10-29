@@ -11,6 +11,7 @@ $padding: 25px
 /////////// fonts ////////////
 
 @import url(http://fonts.googleapis.com/css?family=Lato)
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic)
 
 @font-face
   font-family: "SSSocial"
@@ -53,12 +54,21 @@ $padding: 25px
 =bottom_border($color: $text_color)
   border-bottom: 1px solid #DDD
 
+
+// placeholders //
+
+%header_font
+  font:
+    family: 'Gentium Book Basic', serif
+    style: italic
+
 // Common Shtuff //
 
-body,h1,h2,h3,p,a,li
+body,p,a,li
   +fontskis
 
-h1,h2
+h1,h2,h3
+  @extend %header_font
   margin: 0
 
 a:hover
@@ -119,20 +129,21 @@ ul.post_index
     text-align: center
     margin-bottom: $padding*2
     h1
-      +fontskis
-      font-size: 40px
+      @extend %header_font
+      font-size: 44px
       color: $title_color 
+      margin-bottom: 0
     .date
       font-size: 14px
       color: $main_title_and_date_color
   // content //
   .post_content
     color: $title_color
+    +fontskis
     h2
       font-size: 3.2rem
       color: $title_color
     p
-      +fontskis
       font-size: 17px
       line-height: 160%
       margin-top: $padding
