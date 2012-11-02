@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem "jekyll"
 gem "sass"
-gem "haml", "~> 3.1.6"
+gem "haml"
 gem "compass"
 gem "RedCloth"
 gem "heroku", "~> 2.28.7"
