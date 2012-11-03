@@ -13,26 +13,30 @@
   <body>
     <div id='container'>
       <div class='row'>
-        <div class='nine columns center-content'>
-          <div id='main_header'>
-            <h1>
-              <a href='/'>A Beginner's Life</a>
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='three columns push-eight end'>
-          <div class='right_col'>
-            <div class='nine columns offset-by-four'>
-              {% include bio.html %}
+        <div class='twelve columns'>
+          <div class='row'>
+            <div class='nine columns center-content offset-by-one'>
+              <div id='main_header'>
+                <h1>
+                  <a href='/'>A Beginner's Life</a>
+                </h1>
+              </div>
             </div>
           </div>
-        </div>
-        <div class='nine columns pull-three center-content'>
-          <section>
-            {{ content }}
-          </section>
+          <div class='row'>
+            <div class='three columns push-ten'>
+              <div class='right_col'>
+                <div class='nine columns'>
+                  {% include bio.html %}
+                </div>
+              </div>
+            </div>
+            <div class='nine columns pull-two center-content'>
+              <section>
+                {{ content }}
+              </section>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -12,18 +12,20 @@
   %body
     #container
       .row
-        .nine.columns.center-content
-          #main_header
-            %h1
-              %a{ href: "/" } A Beginner's Life
-      .row
-        .three.columns.push-eight.end
-          .right_col
-            .nine.columns.offset-by-four
-              {% include bio.html %}
-        .nine.columns.pull-three.center-content
-          %section
-            {{ content }}
+        .twelve.columns
+          .row
+            .nine.columns.center-content.offset-by-one
+              #main_header
+                %h1
+                  %a{ href: "/" } A Beginner's Life
+          .row
+            .three.columns.push-ten
+              .right_col
+                .nine.columns
+                  {% include bio.html %}
+            .nine.columns.pull-two.center-content
+              %section
+                {{ content }}
 
     {% include clicky.html %}
     {% include app_js.html %}
