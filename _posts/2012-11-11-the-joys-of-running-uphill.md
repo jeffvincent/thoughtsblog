@@ -23,7 +23,7 @@ Don't.
 
 **Fight against the growth of 'grinding tasks'.** Take the programming concept of 'DRY' (don't repeat yourself) and apply it wherever possible. Automate the building of spreadsheets. Build awesome static resources for your customers to learn from. Stop quibbling over opinions - run the tests, get the data, and then discuss. You'll spend less time *just doing stuff*, and more time *doing the right stuff*.
 
-**Buck convention, and find ways to solve grinding problems in new ways.** Experiment with new approaches, instead of slogging along doing the same things in the same way. Yes, this is harder to do, but it is so worth it. This can be described as 'working smarter, not harder'.
+**Buck convention, and attack grinding problems in new ways.** Experiment with new approaches, instead of slogging along doing the same things in the same way. Yes, this is harder to do, but it is so worth it. This can be described as 'working smarter, not harder'.
 
 **Define ownership for projects, and don't allow anyone to 'own' too much.** One of the tendencies I've seen is veterans giving newer folks false ownership. Instead of really handing it over, veterans seek to hold the 'final word' and provide input every step of the way. Let the new folks run with it, and trust that you hired the right people.
 
