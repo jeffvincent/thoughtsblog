@@ -7,3 +7,4 @@ base_url: http://jeffvincent.me
 description: "it's wonderful to have a beginner's mind"
 rdiscount extensions: [smart]
 exclude: [ .gitignore, README.md, Gemfile, Gemfile.lock, Procfile, vendor ]
+emoji: ./images/emoji
