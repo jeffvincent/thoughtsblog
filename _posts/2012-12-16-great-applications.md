@@ -12,7 +12,7 @@ I've reviewed the resumes of every single successful applicant, and also
 countless resumes that unfortunately didn't make the cut. This doesn't make me
 an expert, but it does make me opinionated {{ ":wink:" | emojify }}.
 
-These are some of my opinions on applications. The goal, is sharing them, is
+These are some of my opinions on applications. The goal, in sharing them, is
 mutually beneficial: I want the best people for the job to rise to the top,
 and I also want to spend time looking at really good applications.
 
