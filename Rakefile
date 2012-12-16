@@ -3,7 +3,7 @@ desc "Pre Jekyll rendering stuff"
 task :pre_jekyll do
   puts "Doing pre-Jekyll schtuffs ..."
 
-  print "  Compiling the compass ... "
+  puts "  Compiling the compass ... "
   system "compass compile"
   puts "done."
 
