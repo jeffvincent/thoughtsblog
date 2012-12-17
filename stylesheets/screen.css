@@ -11,13 +11,13 @@
 
 /* line 60, ../_sass/screen.sass */
 h1, h2, h3, #post .title_and_date h1 {
-  font-family: "Gentium Book Basic", serif;
+  font-family: "Gentium Book Basic", Georgia, serif;
   font-style: italic;
 }
 
 /* line 67, ../_sass/screen.sass */
 body, p, a, li {
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
 }
 
 /* line 70, ../_sass/screen.sass */
@@ -41,7 +41,7 @@ a:hover {
 }
 /* line 82, ../_sass/screen.sass */
 #main_header h1 {
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 58px;
   text-align: center;
   margin-bottom: -8px;
@@ -135,7 +135,7 @@ ul.post_index li {
 /* line 142, ../_sass/screen.sass */
 #post .post_content {
   color: #444444;
-  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
 }
 /* line 145, ../_sass/screen.sass */
 #post .post_content h2 {
