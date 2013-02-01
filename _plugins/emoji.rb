@@ -35,7 +35,7 @@ module Jekyll
         copy_emoji
       end
 
-      content.to_str.gsub(/:([a-z0-9\+\-_]+):/) do |match|
+      content.to_str.tr(":","").gsub(/([a-z0-9\+\-_]+)/) do |match|
         if Emoji.names.include?($1) and path
           '<img alt="' + $1 + '" height="20" src="' + abs_path + "/#{$1}.png" + '" class="emoji" width="20" />'
         else
