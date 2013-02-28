@@ -69,6 +69,8 @@ task :np do
     end
   end
 
+  system "mvim #{path}"
+
   exit 1
 
 end
