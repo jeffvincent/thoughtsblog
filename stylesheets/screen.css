@@ -280,12 +280,12 @@ code {
 }
 
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
-/* line 2, ../_sass/_ss_icons.sass */
+/* line 2, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 html:hover [class^="ss-"] {
   -ms-zoom: 1;
 }
 
-/* line 5, ../_sass/_ss_icons.sass */
+/* line 5, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 .ss-icon, .ss-icon.ss-social, .ss-icon.ss-social-circle,
 [class^="ss-"]:before, [class*=" ss-"]:before,
 [class^="ss-"][class*=" ss-social"]:before, [class*=" ss-"][class*=" ss-social"]:before,
@@ -306,31 +306,31 @@ html:hover [class^="ss-"] {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 25, ../_sass/_ss_icons.sass */
+/* line 25, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 .ss-icon.ss-social-circle,
 [class^="ss-"].ss-social-circle:before, [class*=" ss-"].ss-social-circle:before,
 [class^="ss-"].ss-social-circle.right:after, [class*=" ss-"].ss-social-circle.right:after {
   font-weight: bold;
 }
 
-/* line 30, ../_sass/_ss_icons.sass */
+/* line 30, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 [class^="ss-"].right:before,
 [class*=" ss-"].right:before {
   display: none;
   content: "";
 }
 
-/* line 36, ../_sass/_ss_icons.sass */
+/* line 36, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 .ss-twitter:before, .right_col #bio p a.ss-twitter:before:before, .right_col #bio p a .ss-twitter.right:before:after, .ss-twitter.right:after, .right_col #bio p a.right.ss-twitter:after:before, .right_col #bio p a .right.ss-twitter:after:after {
   content: "";
 }
 
-/* line 38, ../_sass/_ss_icons.sass */
+/* line 38, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 .ss-octocat:before, .right_col #bio p a.ss-octocat:before:before, .right_col #bio p a .ss-octocat.right:before:after, .ss-octocat.right:after, .right_col #bio p a.right.ss-octocat:after:before, .right_col #bio p a .right.ss-octocat:after:after {
   content: "";
 }
 
-/* line 40, ../_sass/_ss_icons.sass */
+/* line 40, /Users/jeff/projects/jv_blog/_sass/_ss_icons.sass */
 .ss-mail:before, .right_col #bio p a.ss-mail:before:before, .right_col #bio p a .ss-octocat.right:before:after, .right_col #bio p a a.right.ss-octocat:before:after:before, .ss-mail.right:after, .right_col #bio p a.right.ss-mail:after:before, .right_col #bio p a .right.ss-octocat:after:after, .right_col #bio p a a.right.ss-octocat:after:after:before {
   content: "✉";
 }
