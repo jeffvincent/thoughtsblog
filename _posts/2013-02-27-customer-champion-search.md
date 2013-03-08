@@ -21,7 +21,7 @@ needs!
 The **Customer Champion** represents customers needs as we consider new
 features.  They are always on top of questions like: 
 
-<blockquote>What do our customers dream about? What would make their lives better?</blockquote>
+<blockquote style="font-size: 17px;">What do our customers dream about? What would make their lives better?</blockquote>
 
 Below are some of our expectations for Customer Champion applicants, and also
 some thoughts on why being a **Customer Champion** at
