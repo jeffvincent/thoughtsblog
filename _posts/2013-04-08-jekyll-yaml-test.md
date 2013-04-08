@@ -54,4 +54,9 @@ describe "Content" do
 end
 </code></pre>
 
+One thing I should mention - the regex test for adding a post is pretty 
+simple - it's just meant to keep the `.DS_Store` file out. We don't use dates
+in our doc posts - but you might (and I do in my blog).  If so, you might want
+to test and make sure the post title starts with dates separated by dashes!
+
 Thanks to [Robby](http://twitter.com/freerobby) for the help!
