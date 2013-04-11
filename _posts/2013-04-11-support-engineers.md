@@ -29,19 +29,20 @@ devotes much of their time working on support issues. Chase and
 functions very similar to an *all hands support* model, in that everyone
 participates in the support process, but in most instances I've heard of, the
 support engineer doesn't actually communicate with the customer. They just
-answer the technical question.
+answer the technical question. Definitely good in some instances, but we
+weren't sure about ours.
 
-We've decided to go a different route. A few months ago our support team
-(myself, Max, and Jordan) and thought through the question. It sure was
-annoying to have to bug each other and our dev friends to get answers to
-certain questions - and it also wasn't a good experience for the customer. The
-toughest questions just kept piling up in the bottom of the inbox, since we
-didn't have the bandwidth or knowledge to answer them.
+A few months ago our support team (myself, Max, and Jordan) got together and
+thought through the question. It sure was annoying to have to bug each other 
+and our dev team to get answers on certain issues - and it also wasn't a 
+good experience for the customer. The toughest questions just kept piling up in
+the bottom of the inbox, since we didn't have the bandwidth or knowledge to 
+answer them.
 
 We decided the only way to get customers the highest quality support possible
-was for *the support team, and future folks that want
+was for the support team, and future folks that want
 to [join us](http://wistia.theresumator.com/apply/5Ozymq/Customer-Champion.html),
-to act as our own support engineers*.
+to act as our own support engineers.
 
 There were three big motivating factors:
 
