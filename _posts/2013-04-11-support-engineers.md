@@ -8,7 +8,7 @@ category: support
 ---
 
 A few weeks ago, Chase Clemons invited me to join him on Support Ops, his
-weekly podcast. It was a ton of fun - Chase is very well versed on the topic,
+weekly podcast. It was a ton of fun - Chase is well versed on the topic,
 so we could talk openly about challenges we faced and how we were overcoming
 them in our own practice. The recording (which you should totally check out) is
 over on the [Support Ops site](http://supportops.co/the-customer-champion-with-jeff-vincent/).
@@ -24,7 +24,7 @@ who are building new features into the product*.
 
 From my limited experience, a lot of other companies approach this by having a
 designated "support engineer", someone who has a background as an engineer, but
-devotes much of their time working on support issues. Chase and
+devotes much of their time working on support problems. Chase and
 [37signals](http://37signals.com) have rotating "support engineer" time. This
 functions very similar to an *all hands support* model, in that everyone
 participates in the support process, but in most instances I've heard of, the
@@ -33,10 +33,10 @@ answer the technical question. Definitely good in some instances, but we
 weren't sure about ours.
 
 A few months ago our support team (myself, Max, and Jordan) got together and
-thought through the question. It sure was annoying to have to bug each other 
-and our dev team to get answers on certain issues - and it also wasn't a 
-good experience for the customer. The toughest questions just kept piling up in
-the bottom of the inbox, since we didn't have the bandwidth or knowledge to 
+thought through the question. It sure was annoying to have to bug one another 
+and our dev team to get answers on certain issues - and it wasn't a good 
+experience for the customer. The toughest questions just kept piling up in
+the bottom of the inbox, because we didn't have the bandwidth or knowledge to 
 answer them.
 
 We decided the only way to get customers the highest quality support possible
@@ -71,7 +71,7 @@ learn which means it's slow going at first.
 
 That being said, we've done a great job sharing our learnings and improving as
 a group - which I think has helped our communication processes. The dev team
-also really appreciates that we handle more of these problems ourselves!
+also appreciates that we handle more of these problems ourselves!
 
 I recommend putting together a shared document that support folks can contribute
 to as they learn new things. Our *Moreau Doctrine* contains the basic outlines 
@@ -84,7 +84,7 @@ to the team have a great starting place so they can catch up quick.
 
 One of the *worst* parts of a support person's day, in my opinion, is when an
 issue comes in that sits right on the border between doable and not doable.
-Like it's technically possible, but would require bugging an engineer to write
+Like it is technically possible, but would require bugging an engineer to write
 a custom report or would require some API work. The types of things we'd want
 to build into the product in the long-term, but aren't working on today.
 
@@ -118,8 +118,8 @@ success of Wistia to having our customers interests at heart.
 
 Jordan set up our current all hands support schedule - Tuesdays and Thursdays
 someone from outside the support team spends the day answering requests. They
-come in a little earlier in the morning so Jordan can get them set up, and
-we're available to them the whole time to help answer questions.
+come in a little earlier so Jordan can get them set up, and we're available to
+them the whole time to help answer questions.
 
 ---
 
