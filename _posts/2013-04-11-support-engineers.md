@@ -73,9 +73,9 @@ That being said, we've done a great job sharing our learnings and improving as
 a group - which I think has helped our communication processes. The dev team
 also really appreciates that we handle more of these problems ourselves!
 
-If you can, put together a shared document that support folks can contribute to
-as they learn new things. Our *Moreau Doctrine* contains the basic outlines of
-some of the toughest/most counterintuitive questions, a bunch of
+I recommend putting together a shared document that support folks can contribute
+to as they learn new things. Our *Moreau Doctrine* contains the basic outlines 
+of some of the toughest/most counterintuitive questions, a bunch of
 troubleshooting tips, and even Rails console commands worth remembering. This
 means no one has to struggle through the same thing twice, and new people added
 to the team have a great starting place so they can catch up quick.
@@ -96,8 +96,13 @@ As we've developed our skills, the support team has actually been able to
 tackle these projects ourselves. Our [demobin](http://wistia.github.com/demobin)
 contains little API projects customers can now use on their own sites. We have
 internal scripts to generate in-depth stats reports, an issue that had been
-dogging us for a long time. The people who face the problem every day should be
-given the tools to solve it, if they so choose.
+dogging us for a long time. 
+
+The people who face the problem every day should be given the tools to solve it, 
+if they so choose. This means getting the support team access to the best learning
+content (we use [Code School](http://codeschool.com) and then using those
+skills to contribute to the marketing site and core product. I've found pull
+request reviews to be one of the best ways to improve.
 
 ### Support is About More Than Technical Issues
 
@@ -110,6 +115,11 @@ answering the normal customer requests again.
 This will pay enormous dividends into the future. Having a real connection with
 our customers helps in pretty much any decision we make, and I credit the
 success of Wistia to having our customers interests at heart.
+
+Jordan set up our current all hands support schedule - Tuesdays and Thursdays
+someone from outside the support team spends the day answering requests. They
+come in a little earlier in the morning so Jordan can get them set up, and
+we're available to them the whole time to help answer questions.
 
 ---
 
