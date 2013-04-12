@@ -7,6 +7,13 @@ description:
 category: support
 ---
 
+<p class="tldr"><strong>A little TL;DR, since this post ballooned in length a 
+little:</strong> I've been having a bunch of conversations with other support 
+folks about using engineers to help do support. Seems like an issue lots of 
+companies at our stage are working through. At Wistia, our support team is 
+developing it's dev skills instead. I chat about the major benefits (as I see 
+them) below.</p>
+
 A few weeks ago, Chase Clemons invited me to join him on Support Ops, his
 weekly podcast. It was a ton of fun - Chase is well versed on the topic,
 so we could talk openly about challenges we faced and how we were overcoming
