@@ -83,7 +83,7 @@ using awesome tools like Code School and GitHub to make this happen.
 
 ### Automation is Expected
 
-<div class="post_image"><img src="/images/support-requests.png" alt="support requests growth graph"></div>
+<div class="post_image"><img src="http://embed.wistia.com/deliveries/9d8d571c20a699a071ed9c23c5b96aa6cd667e9e.png" alt="support requests growth graph"></div>
 
 The chart above shows our total user growth over the last year plus, compared
 to the total number of support requests received (an updated chart would be
