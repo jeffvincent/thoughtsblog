@@ -27,12 +27,12 @@ end
 
 desc "Launch preview environment"
 task :preview => :pre_jekyll do
-  system "foreman start --procfile Procfile2"
+  system "bundle exec foreman start --procfile Procfile2"
 end
 
 desc "Build the site"
 task :build => :pre_jekyll do
-  system "bundle exec jekyll"
+  system "bundle exec jekyll build"
 end
 
 desc "Deploy latest code in _site to production"

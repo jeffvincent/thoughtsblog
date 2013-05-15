@@ -1,6 +1,6 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", "~> 1.0.0"
 gem "sass"
 gem "haml"
 gem "compass"
