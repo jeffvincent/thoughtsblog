@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby "1.9.3"
 
 gem "jekyll", "~> 1.0.0"
 gem "sass"
@@ -6,9 +7,9 @@ gem "haml"
 gem "compass"
 gem "RedCloth"
 gem "heroku", "~> 2.28.7"
-gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git'
+gem 'rack-jekyll', :git => "https://github.com/adaoraul/rack-jekyll.git"
 gem "unicorn", "~> 4.3.1"
-gem "rdiscount"
+gem "rdiscount", :git => "https://github.com/sunaku/rdiscount.git"
 gem "ZURB-foundation"
 gem "foreman"
 gem "gemoji"
