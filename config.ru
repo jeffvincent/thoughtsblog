@@ -1,3 +1,3 @@
 require 'rack/jekyll'
 
-run Rack::Jekyll.new('auto')
+run Rack::Jekyll.new
