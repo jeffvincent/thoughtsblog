@@ -143,9 +143,14 @@ ul.post_index
     color: $title_color
     font-family: $fonts
     font-size: 17px
+    pre
+      @extend pre
+    code
+      @extend code
     h2
       font-size: 3.2rem
       color: $title_color
+      margin: $padding 0
     p
       font-size: 17px
       line-height: 160%
@@ -197,25 +202,6 @@ ul.post_index
       border: 4px solid #DDD
 
 // SPANS //
-
-.terminal
-  color: #0f0
-.comment
-  color: red
-
-
-.codez
-  background: black
-  padding: 5px
-  padding-left: 10px
-  margin: $padding 0
-
-code
-  font:
-    size: 13px
-    family: monospace
-    style: normal
-  line-height: 16px
 
 .disclaimer
   +callout-text(yellow, .4)
