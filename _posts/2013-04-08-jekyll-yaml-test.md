@@ -28,7 +28,7 @@ At some point I'd like to figure out how to test all links too, to make sure
 they point to real content. Moving doc pages and 404s are the bane of my
 existence!
 
-<pre><code class="language-ruby">
+{% codeblock jekyll_yaml_test.rb %}
 require_relative 'spec_helper'
 
 describe "Content" do
@@ -52,7 +52,7 @@ describe "Content" do
     end
   end
 end
-</code></pre>
+{% endcodeblock %}
 
 One thing I should mention - the regex test for adding a post is pretty 
 simple - it's just meant to keep the `.DS_Store` file out. We don't use dates
