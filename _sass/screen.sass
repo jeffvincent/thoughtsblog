@@ -6,6 +6,8 @@ $emphasis_color: #BC7134
 $wistia_blue: #81c2f0
 $index_link_color: #1B56E0
 $padding: 25px
+$fonts: 'Lato', Helvetica, sans-serif
+$header_fonts: 'Gentium Book Basic', Georgia, serif
 
 //////////////////////////////
 /////////// fonts ////////////
@@ -25,13 +27,11 @@ $padding: 25px
 /////////// imports /////////
 
 @import compass/css3
+@import 'syntax_highlighting'
 
 /////////////////////////////
 
 // Mixins //
-=fontskis
-  font-family: 'Lato', Helvetica, sans-serif
-
 =darken-text($color)
   color: darken($color, 5%)
 
@@ -59,13 +59,13 @@ $padding: 25px
 
 %header_font
   font:
-    family: 'Gentium Book Basic', Georgia, serif
+    family: $header_fonts
     style: italic
 
 // Common Shtuff //
 
 body,p,a,li
-  +fontskis
+  font-family: $fonts
 
 h1,h2,h3
   @extend %header_font
@@ -80,7 +80,7 @@ a:hover
 #main_header
   border-bottom: 1px solid #DDD  
   h1
-    +fontskis
+    font-family: $fonts
     font-size: 58px
     text-align: center
     margin-bottom: -8px
@@ -141,7 +141,7 @@ ul.post_index
   // content //
   .post_content
     color: $title_color
-    +fontskis
+    font-family: $fonts
     font-size: 17px
     h2
       font-size: 3.2rem
