@@ -75,3 +75,32 @@ task :np do
   exit 1
 
 end
+
+desc "Create a new draft"
+task :nd do
+  require 'date'
+
+  title = ENV["title"] || "new-post"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+
+  puts "creating a new draft, entitled #{title}"
+
+  path = "drafts/#{ slug }.md"
+
+  if File.exist?(path)
+  	puts "[WARN] File exists - skipping create"
+  else
+    File.open(path, "w") do |post|
+      post.puts "---"
+      post.puts "layout: post"
+      post.puts "title: \"#{ title.gsub(/-/, ' ')}\""
+      post.puts "description: "
+      post.puts "---"
+    end
+  end
+
+  system "mvim #{path}"
+
+  exit 1
+
+end
