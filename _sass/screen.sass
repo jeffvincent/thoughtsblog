@@ -12,13 +12,13 @@ $header_fonts: 'Gentium Book Basic', Georgia, serif
 //////////////////////////////
 /////////// fonts ////////////
 
-@import url(http://fonts.googleapis.com/css?family=Lato)
-@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic)
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900)
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic)
 
 @font-face
   font-family: "SSSocial"
-  src: url('/fonts/ss-social-circle.eot')
-  src: url('/fonts/ss-social-circle.eot?#iefix') format('embedded-opentype'), url('/fonts/ss-social-circle.woff') format('woff'), url('/fonts/ss-social-circle.ttf') format('truetype'), url('/fonts/ss-social-circle.svg#SSSocialCircle') format('svg')
+  src: url('/font/ss-social-circle.eot')
+  src: url('/font/ss-social-circle.eot?#iefix') format('embedded-opentype'), url('/font/ss-social-circle.woff') format('woff'), url('/font/ss-social-circle.ttf') format('truetype'), url('/font/ss-social-circle.svg#SSSocialCircle') format('svg')
   font-weight: bold
   font-style: normal
 
@@ -38,13 +38,16 @@ $header_fonts: 'Gentium Book Basic', Georgia, serif
 
 =breakpoint($point)
   @if $point == extra-large-screen
-    @media (max-width: 1441px) 
+    @media (min-width: 1080px)
       @content
-  @if $point == medium-screen
-    @media (max-width: 1279px)
+  @else if $point == large-screen
+    @media (max-width: 1080px)
       @content
-  @if $point == small-screen
-    @media (max-width: 768px)
+  @else if $point == medium-screen
+    @media (max-width: 960px)
+      @content
+  @else if $point == small-screen
+    @media (max-width: 650px)
       @content
 
 =callout-text($color, $opacity: .6)
@@ -61,7 +64,6 @@ $header_fonts: 'Gentium Book Basic', Georgia, serif
 %header_font
   font:
     family: $header_fonts
-    style: italic
 
 // Common Shtuff //
 
@@ -75,19 +77,39 @@ h1,h2,h3
 a:hover
   text-decoration: underline
 
-#container
-  margin: $padding auto
+img
+  max-width: 100%
+
+*
+  box-sizing: border-box
+
+body
+  background-color: #EEE
+
+.container
+  width: 80%
+  background-color: white
+  max-width: 960px
+  margin: $padding * 2 auto
+  padding: 2 * $padding
+  +breakpoint(small-screen)
+    width: 100%
+    padding: $padding
 
 #main_header
-  border-bottom: 1px solid #DDD  
-  margin-top: 40px
-  margin-bottom: 30px
+  border-bottom: 3px solid #DDD  
+  margin-bottom: 20px
+  width: 80%
+  margin: 0 auto
   +user-select(none)
+  +breakpoint(small-screen)
+    width: 100%
   h1
-    font-family: $fonts
+    font-family: $header_fonts
+    font-weight: 400
     font-size: 58px
     text-align: center
-    margin-bottom: -8px
+    margin-bottom: 10px
     +breakpoint(small-screen)
       font-size: 48px
     a, a:hover
@@ -95,22 +117,28 @@ a:hover
       text-decoration: none
 
 .content
+  width: 80%
   font-size: 1.5rem
-  padding: $padding
+  padding: $padding 0
+  margin: 0 auto
+  +breakpoint(small-screen)
+    width: 100%
 
 // post index page //
 
-ul.post_index
-  line-height: 200%
+.post_index
   padding: 0
-  li
-    white-space: nowrap
-    overflow: hidden
-    text-overflow: ellipsis
+  margin: 0
+  list-style-type: none
+
 .post_index_item
   list-style-position: inside
-  padding: $padding/2 0
+  padding: $padding
   border-bottom: 1px solid #ddd
+
+  ul
+    padding: 0
+    list-style-type: none
 
   a
     color: $index_link_color
@@ -123,20 +151,37 @@ ul.post_index
     margin-bottom: 0
   .title
     h1
-      font-size: 2.3rem
+      font-size: 1.6rem
       margin-bottom: 0
     a
       color: #333
-  .date
-    span
+  .date_and_time
+    span, i
       font-size: $padding/2
       color: $main_title_and_date_color
 
   .description
     p
       max-width: 500px
-      font-size: 1.6rem
+      font-size: 16px
       white-space: normal
+      color: #333
+      line-height: 160%
+
+// pagination //
+
+.pagination
+  text-align: center
+  margin-top: 40px
+  font-size: 14px
+  color: #444
+  a, span
+    padding: 0 20px
+  a
+    text-decoration: none
+    color: $index_link_color
+  span.previous, span.next
+    color: #888
 
 // post stuff //
 
@@ -147,6 +192,7 @@ ul.post_index
     margin-bottom: $padding*2
     h1
       @extend %header_font
+      font-style: italic
       font-size: 44px
       color: $title_color 
       margin-bottom: 0

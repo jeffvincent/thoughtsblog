@@ -3,27 +3,26 @@ layout: base
 title: A Beginner's Life
 ---
 
-<div class="content">
-  <ul class="post_index">
+<div class='content'>
+  <ul class='post_index'>
     {% for post in paginator.posts %}
-    <div class="row">
-      <div class="twelve columns">
-        <li class='post_index_item'>
-          <ul>
-            <li class='title'>
-              <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-            </li>
-            <li class='date'>
-              <span>{{ post.date | date: "%B %e, %Y" }}</span>
-            </li>
-            <li class='description'>
-              <p>{{ post.description }}</p>
-            </li>
-          </ul>
+    <li class='post_index_item'>
+      <ul>
+        <li class='title'>
+          <h1><a href='{{ post.url }}'>{{ post.title }}</a></h1>
         </li>
-      </div>
-    </div>
-
+        <li class='date_and_time'>
+          <span>{{ post.date | date: '%B %e, %Y' }}</span>
+          <i class="icon-time"></i>
+          <span>
+            {{ post.content | number_of_words append: '.0' | divided_by:180 | append: ' min' }}
+          </span>
+        </li>
+        <li class='description'>
+          <p>{{ post.description }}</p>
+        </li>
+      </ul>
+    </li>
     {% endfor %}
   </ul>
   {% include pagination.html %}
