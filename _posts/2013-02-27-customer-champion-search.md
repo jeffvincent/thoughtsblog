@@ -29,7 +29,7 @@ Below are some of our expectations for Customer Champion applicants, and also
 some thoughts on why being a **Customer Champion** at
 [Wistia](http://wistia.com) rocks {{":metal:" | emojify }}
 
-### Support Customers as a Real Human
+## Support Customers as a Real Human
 
 **Customer Champions** are an awesome blend of friendly and ridiculously
 knowledgeable. We are a curious bunch - everyone has their niche of knowledge
@@ -45,7 +45,7 @@ we are totally stumped, the only response is to be transparent and honest. It
 is never OK to blame the customer for asking a question.
 
 
-### Support is the Center of the Action
+## Support is the Center of the Action
 
 Our new **Customer Champion** joins a super small team that is obsessed with
 providing top-notch support. We don't separate support into a call center.  No
@@ -63,7 +63,7 @@ loop. We also work in tight quarters, so that experience and expertise can more
 easily flow between team members. Everyone gets the support they need.
 
 
-### Level Up Your Skills
+## Level Up Your Skills
 
 As a team, we recently decided it would be really helpful for everyone in the
 company to learn how to read and write code - designers, developers, Customer
@@ -83,7 +83,7 @@ Our Customer Champions get access to the best tools available. We're already
 using awesome tools like Code School and GitHub to make this happen.
 
 
-### Automation is Expected
+## Automation is Expected
 
 <div class="post_image"><img src="http://embed.wistia.com/deliveries/9d8d571c20a699a071ed9c23c5b96aa6cd667e9e.png" alt="support requests growth graph"></div>
 
@@ -116,7 +116,7 @@ more harder problems we solve together, the happier our customers will be
 Those who desire role security above all else need not apply. 
 
 
-### The Wistia Team
+## The Wistia Team
 
 I believe in our team because we make it *awesome*, and we give a shit.
 
@@ -128,7 +128,7 @@ other new skills. I consider our environment to be the best and most productive
 I've experienced, and I know lots of the team would agree.
 
 
-### Become the Next Customer Champion
+## Become the Next Customer Champion
 
 Our type of support will never be easy. Additional smart and passionate folks
 will help distribute the load. New ways to educate (improved onboarding, better

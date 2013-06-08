@@ -70,7 +70,7 @@ There are ups and downs on both sides of this argument. If you are currently in
 this situation, here are a few reasons to go what I'll call the *Customer
 Champion route*.
 
-### Faster Learnings, Better Shared
+## Faster Learnings, Better Shared
 
 Having a dedicated support engineer would probably mean fewer total headaches -
 the number of issues we spend time investigating that a trained engineer would
@@ -88,7 +88,7 @@ troubleshooting tips, and even Rails console commands worth remembering. This
 means no one has to struggle through the same thing twice, and new people added
 to the team have a great starting place so they can catch up quick.
 
-### Cumulative Learnings Lead to Exponential Growth
+## Cumulative Learnings Lead to Exponential Growth
 
 One of the *worst* parts of a support person's day, in my opinion, is when an
 issue comes in that sits right on the border between doable and not doable.
@@ -112,7 +112,7 @@ content (we use [Code School](http://codeschool.com) and then using those
 skills to contribute to the marketing site and core product. I've found pull
 request reviews to be one of the best ways to improve.
 
-### Support is About More Than Technical Issues
+## Support is About More Than Technical Issues
 
 We've had it on the list to get our *all hands support* mode rocking again for
 some time. For a while there, the dev team was on call for lots of issues, so
