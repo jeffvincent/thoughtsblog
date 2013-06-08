@@ -10,7 +10,5 @@ comments: true
       %span.date {{ page.date | date: "%B %d, %Y" }}
     .post_content
       {{ content }}
-    .row
-      .twelve.columns
-        .comments
-          {% include disqus.html %}
+    .comments
+      {% include disqus.html %}

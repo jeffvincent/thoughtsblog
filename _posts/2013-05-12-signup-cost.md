@@ -97,7 +97,7 @@ will reward you by shouting from the rooftops!
 
 <div class="disclaimer">
   <p>
-    <strong>Note:</strong> I used MailChimp in the example of a sign-up form,
+    I used MailChimp in the example of a sign-up form,
     but this post is not meant as a critique of their sign-up flow.
     Quite the contrary, I think they do a lovely job.
   </p>

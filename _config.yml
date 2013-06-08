@@ -3,6 +3,7 @@ permalink: /:title
 multiviews: true
 haml: true
 sass: true
+paginate: 5
 base_url: http://jeffvincent.me
 description: "it's wonderful to have a beginner's mind"
 rdiscount extensions: [smart]

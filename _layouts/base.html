@@ -4,7 +4,7 @@
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type'>
     <meta content='Jeff Vincent' name='author'>
     <link href='/stylesheets/screen.css' rel='stylesheet'>
-    <link href='/stylesheets/foundation.css' rel='stylesheet'>
+    <link href='/stylesheets/font-awesome.min.css' rel='stylesheet'>
     <link href='/stylesheets/prism.css' rel='stylesheet'>
     <title>
       A Beginner's Life - {{ page.title }}
@@ -12,32 +12,15 @@
     {% include g_analytics.js %}
   </head>
   <body>
-    <div id='container'>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='row'>
-            <div class='nine columns center-content offset-by-one'>
-              <div id='main_header'>
-                <h1>
-                  <a href='/'>A Beginner's Life</a>
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div class='row'>
-            <div class='three columns push-ten'>
-              <div class='right_col nine columns'>
-                {% include bio.html %}
-              </div>
-            </div>
-            <div class='nine columns pull-two center-content'>
-              <section>
-                {{ content }}
-              </section>
-            </div>
-          </div>
-        </div>
+    <div class='container'>
+      <div id='main_header'>
+        <h1>
+          <a href='/'>A Beginner's Life</a>
+        </h1>
       </div>
+      <section>
+        {{ content }}
+      </section>
     </div>
     {% include tracking_js.html %}
     {% include app_js.html %}
