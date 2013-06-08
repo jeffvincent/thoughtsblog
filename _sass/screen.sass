@@ -216,7 +216,8 @@ body
       @extend code
       font-size: 16px
     h2
-      font-size: 3.2rem
+      font-size: 28px
+      font-family: $fonts
       color: $title_color
       margin: $padding 0
     p
@@ -236,16 +237,16 @@ body
     ul
       border-left: 20px solid $wistia_blue
       list-style-type: none
-      font:
-        size: 17px
-        style: italic
+      font-size: 17px
       padding-left: 20px
 
-      li ul
-        list-style-type: circle
-        border: none
-        margin-top: 10px
-        font-style: normal
+      & > li 
+        margin: 10px 0
+        ul
+          list-style-type: circle
+          border: none
+          margin-top: 10px
+          font-style: normal
 
     .tldr
       background-color: #EEE

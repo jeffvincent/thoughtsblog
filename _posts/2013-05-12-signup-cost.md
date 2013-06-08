@@ -24,11 +24,9 @@ That is why I'm such a huge advocate for sign-up flows that **return immediate
 value**. Giving the new audience member something of value right away erases the
 possibility of "buyer's remorse" and can turn them into an advocate fast.
 
----
-
 Here are two examples of this theory in action:
 
-**Wistia Sign-up Flow**
+## Wistia Sign-up Flow
 
 <div class="post_image"><img src="http://embed.wistia.com/deliveries/1d5bdeb771e88586b7b1d8eb627e4e5ecf3eb793.png" alt="wistia sign up thanks" /></div>
 
@@ -49,7 +47,7 @@ less than 2 hours, really) but has paid huge dividends. We get emails all the
 time from new customers saying it helped affirm them that signing up was the
 right choice (awesome!).
 
-**Wistia Video Marketing 101**
+## Wistia Video Marketing 101
 
 <div class="post_image"><img src="http://embed.wistia.com/deliveries/2cacde63c68a2d3520399caacf0f223cbc73de37.png" alt="wistia sign up thanks" /></div>
 

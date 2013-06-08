@@ -674,20 +674,21 @@ body {
 }
 /* line 218, ../_sass/screen.sass */
 #post .post_content h2 {
-  font-size: 3.2rem;
+  font-size: 28px;
+  font-family: "Lato", Helvetica, sans-serif;
   color: #333333;
   margin: 25px 0;
 }
-/* line 222, ../_sass/screen.sass */
+/* line 223, ../_sass/screen.sass */
 #post .post_content p {
   line-height: 160%;
   margin-top: 25px;
 }
-/* line 225, ../_sass/screen.sass */
+/* line 226, ../_sass/screen.sass */
 #post .post_content p a {
   color: #6398f4;
 }
-/* line 227, ../_sass/screen.sass */
+/* line 228, ../_sass/screen.sass */
 #post .post_content blockquote {
   font-style: italic;
   line-height: 150%;
@@ -698,31 +699,34 @@ body {
   margin-left: 0;
   color: #262626;
 }
-/* line 234, ../_sass/screen.sass */
+/* line 235, ../_sass/screen.sass */
 #post .post_content blockquote p {
   margin: 0;
 }
-/* line 236, ../_sass/screen.sass */
+/* line 237, ../_sass/screen.sass */
 #post .post_content ul {
   border-left: 20px solid #81c2f0;
   list-style-type: none;
   font-size: 17px;
-  font-style: italic;
   padding-left: 20px;
 }
-/* line 244, ../_sass/screen.sass */
-#post .post_content ul li ul {
+/* line 243, ../_sass/screen.sass */
+#post .post_content ul > li {
+  margin: 10px 0;
+}
+/* line 245, ../_sass/screen.sass */
+#post .post_content ul > li ul {
   list-style-type: circle;
   border: none;
   margin-top: 10px;
   font-style: normal;
 }
-/* line 250, ../_sass/screen.sass */
+/* line 251, ../_sass/screen.sass */
 #post .post_content .tldr {
   background-color: #eeeeee;
   padding: 20px;
 }
-/* line 253, ../_sass/screen.sass */
+/* line 254, ../_sass/screen.sass */
 #post .opening_quote {
   text-align: left;
   font-size: 120%;
@@ -730,77 +734,77 @@ body {
   width: 252px;
   color: #262626;
 }
-/* line 259, ../_sass/screen.sass */
+/* line 260, ../_sass/screen.sass */
 #post .comments {
   margin-top: 50px;
 }
-/* line 261, ../_sass/screen.sass */
+/* line 262, ../_sass/screen.sass */
 #post .comments a {
   font-size: 14px;
 }
-/* line 264, ../_sass/screen.sass */
+/* line 265, ../_sass/screen.sass */
 #post .post_banner_image {
   text-align: center;
 }
-/* line 266, ../_sass/screen.sass */
+/* line 267, ../_sass/screen.sass */
 #post .post_banner_image img {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 268, ../_sass/screen.sass */
+/* line 269, ../_sass/screen.sass */
 #post .post_image {
   text-align: center;
 }
-/* line 270, ../_sass/screen.sass */
+/* line 271, ../_sass/screen.sass */
 #post .post_image img {
   border: 4px solid #dddddd;
 }
 
-/* line 275, ../_sass/screen.sass */
+/* line 276, ../_sass/screen.sass */
 .disclaimer {
   padding-left: 15px;
   border-left: 10px solid rgba(255, 255, 0, 0.4);
   margin-left: 0;
 }
 
-/* line 280, ../_sass/screen.sass */
+/* line 281, ../_sass/screen.sass */
 .float_left {
   float: left;
 }
 
-/* line 285, ../_sass/screen.sass */
+/* line 286, ../_sass/screen.sass */
 .right_col {
   text-align: right;
   vertical-align: top;
   margin-top: 32px;
 }
-/* line 289, ../_sass/screen.sass */
+/* line 290, ../_sass/screen.sass */
 .right_col #bio {
   position: relative;
 }
 @media (max-width: 650px) {
-  /* line 289, ../_sass/screen.sass */
+  /* line 290, ../_sass/screen.sass */
   .right_col #bio {
     text-align: center;
     width: 100%;
   }
 }
-/* line 294, ../_sass/screen.sass */
+/* line 295, ../_sass/screen.sass */
 .right_col #bio #bio_pic {
   background: transparent url(http://gravatar.com/avatar/236b71872405f00ef210cded00a8fd93) center no-repeat;
   margin: 0 auto 10px;
   height: 80px;
   width: 80px;
 }
-/* line 299, ../_sass/screen.sass */
+/* line 300, ../_sass/screen.sass */
 .right_col #bio p {
   font-size: 1.5rem;
   color: #999999;
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 304, ../_sass/screen.sass */
+/* line 305, ../_sass/screen.sass */
 .right_col #bio p a {
   color: #81c2f0;
 }
@@ -861,17 +865,17 @@ html:hover [class^="ss-"] {
   content: "✉";
 }
 
-/* line 312, ../_sass/screen.sass */
+/* line 313, ../_sass/screen.sass */
 .right_col #bio p a.icon {
   color: #dddddd;
   font-size: 22px;
 }
-/* line 315, ../_sass/screen.sass */
+/* line 316, ../_sass/screen.sass */
 .right_col #bio p a.icon:hover {
   color: #81c2f0;
   text-decoration: none;
 }
-/* line 318, ../_sass/screen.sass */
+/* line 319, ../_sass/screen.sass */
 .right_col #bio p a.icon:before {
   font-family: "SSSocial";
   font-style: normal;
