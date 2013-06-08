@@ -2,8 +2,9 @@
 layout: post
 title: Support Engineers
 description:
-  A further discussion of using in-house engineers to help solve
-  technical support issues.
+  My take on the debate of using in-house engineers or support people to solve
+  customer's technical support issues. Our customer champion method hasn't let
+  us down yet.
 category: support
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Using Sass Hashes"
-description: Sass has powerful hash functionality that you can use to further
-  simplify your style
+description: 
+  Sass has powerful hash functionality that you can use to further simplify your style.
+  This quick example will get you started.
 category: development
 tags: development, sass
 ---
