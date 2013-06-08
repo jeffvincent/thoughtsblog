@@ -19,7 +19,7 @@ title: A Beginner's Life
           </span>
         </li>
         <li class='description'>
-          <p>{{ post.description }}</p>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}</p>
         </li>
       </ul>
     </li>
