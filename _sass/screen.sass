@@ -102,26 +102,27 @@ body
   width: 80%
   margin: 0 auto
   +user-select(none)
-  +breakpoint(small-screen)
-    width: 100%
   h1
     font-family: $header_fonts
     font-weight: 400
     font-size: 58px
     text-align: center
     margin-bottom: 10px
-    +breakpoint(small-screen)
-      font-size: 48px
     a, a:hover
       color: #CCC
       text-decoration: none
+  +breakpoint(small-screen)
+    width: 100%
+    h1
+      font-size: 40px
+
 
 .content
   width: 80%
   font-size: 1.5rem
   padding: $padding 0
   margin: 0 auto
-  +breakpoint(small-screen)
+  +breakpoint(medium-screen)
     width: 100%
 
 // post index page //
@@ -196,9 +197,12 @@ body
       font-size: 44px
       color: $title_color 
       margin-bottom: 0
+      +breakpoint(small-screen)
+        font-size: 38px
     .date
       font-size: 14px
       color: $main_title_and_date_color
+
   // content //
   .post_content
     color: $title_color
@@ -229,6 +233,7 @@ body
         margin: 0
     ul
       border-left: 20px solid $wistia_blue
+      list-style-type: none
       font:
         size: 17px
         style: italic
