@@ -2,7 +2,9 @@
 layout: post
 title: "Jekyll YAML Test"
 description:
-  If you are using Jekyll, broken YAML can ruin your build (and day).
+  If you are using Jekyll, broken YAML can ruin your build (and day). Here's a
+  quick test you can add to your suite to make sure you didn't inadvertently
+  break anything.
 category: Rspec, Jekyll
 ---
 

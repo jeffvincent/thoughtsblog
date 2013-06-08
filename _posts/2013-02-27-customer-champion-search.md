@@ -2,6 +2,8 @@
 layout: post 
 title: A New Customer Champion 
 description: 
+  Growing the team is one of the most exciting and challenging parts of my job.
+  Let's talk about what makes an awesome customer champion.
 category: 
 ---
 

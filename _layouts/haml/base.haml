@@ -4,7 +4,7 @@
     %meta{ 'http-equiv' => 'Content-Type', :content => "text/html;charset=utf-8" }
     %meta{ :name => "author", :content => "Jeff Vincent" }
     %link{ rel: 'stylesheet', href: '/stylesheets/screen.css' }
-    %link{ rel: 'stylesheet', href: '/stylesheets/foundation.css' }
+    %link{ rel: 'stylesheet', href: '/stylesheets/font-awesome.min.css' }
     %link{ rel: 'stylesheet', href: '/stylesheets/prism.css' }
 
     %title
@@ -12,21 +12,12 @@
     :plain
       {% include g_analytics.js %}
   %body
-    #container
-      .row
-        .twelve.columns
-          .row
-            .nine.columns.center-content.offset-by-one
-              #main_header
-                %h1
-                  %a{ href: "/" } A Beginner's Life
-          .row
-            .three.columns.push-ten
-              .right_col.nine.columns
-                {% include bio.html %}
-            .nine.columns.pull-two.center-content
-              %section
-                {{ content }}
+    .container
+      #main_header
+        %h1
+          %a{ href: "/" } A Beginner's Life
+      %section
+        {{ content }}
 
     {% include tracking_js.html %}
     {% include app_js.html %}
