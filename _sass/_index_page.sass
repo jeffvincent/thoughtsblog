@@ -1,0 +1,57 @@
+.post_index
+  padding: 0
+  margin: 0
+  list-style-type: none
+
+.post_index_item
+  list-style-position: inside
+  padding: $padding
+  border-bottom: 1px solid #ddd
+  &:last-child
+    border-bottom: none
+
+  ul
+    padding: 0
+    list-style-type: none
+
+  a
+    color: $index_link_color
+    text-decoration: none
+    &:hover
+      +darken-text($index_link_color)
+      text-decoration: none
+
+  .title, .date, .description, ul
+    margin-bottom: 0
+  .title
+    h1
+      font-size: 1.6rem
+      margin-bottom: 0
+    a
+      color: $index_link_color
+  .date_and_time
+    span, i
+      font-size: $padding/2
+      color: $green
+
+  .description
+    p
+      max-width: 500px
+      font-size: 16px
+      white-space: normal
+      color: #777
+      line-height: 160%
+
+// pagination //
+
+.pagination
+  text-align: center
+  margin-top: 40px
+  font-size: 14px
+  color: #444
+  a, span
+    padding: 0 20px
+  a
+    color: $index_link_color
+  span.previous, span.next
+    color: #888
