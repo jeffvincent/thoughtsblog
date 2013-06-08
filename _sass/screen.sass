@@ -27,7 +27,8 @@ $header_fonts: 'Gentium Book Basic', Georgia, serif
 /////////// imports /////////
 
 @import compass/css3
-@import 'syntax_highlighting'
+@import syntax_highlighting
+@import compass/css3/user-interface
 
 /////////////////////////////
 
@@ -79,6 +80,9 @@ a:hover
 
 #main_header
   border-bottom: 1px solid #DDD  
+  margin-top: 40px
+  margin-bottom: 30px
+  +user-select(none)
   h1
     font-family: $fonts
     font-size: 58px
@@ -87,9 +91,8 @@ a:hover
     +breakpoint(small-screen)
       font-size: 48px
     a, a:hover
-      color: #DDD
+      color: #CCC
       text-decoration: none
-      +text-shadow(-1px -1px 0 rgba(#141414, 0.3))
 
 .content
   font-size: 1.5rem
@@ -104,24 +107,36 @@ ul.post_index
     white-space: nowrap
     overflow: hidden
     text-overflow: ellipsis
-.post_index_list_item
+.post_index_item
   list-style-position: inside
-  &.title
-    +breakpoint(small-screen)
-      margin-bottom: 0
-.post_index_title
-  text-decoration: none
-  color: $index_link_color
-  &:hover
-    +darken-text($index_link_color)
+  padding: $padding/2 0
+  border-bottom: 1px solid #ddd
+
+  a
+    color: $index_link_color
     text-decoration: none
-.date
-  text-align: right
-  +breakpoint(small-screen)
-    text-align: left
-.date_span
-  font-size: $padding/2
-  color: $main_title_and_date_color
+    &:hover
+      +darken-text($index_link_color)
+      text-decoration: none
+
+  .title, .date, .description, ul
+    margin-bottom: 0
+  .title
+    h1
+      font-size: 2.3rem
+      margin-bottom: 0
+    a
+      color: #333
+  .date
+    span
+      font-size: $padding/2
+      color: $main_title_and_date_color
+
+  .description
+    p
+      max-width: 500px
+      font-size: 1.6rem
+      white-space: normal
 
 // post stuff //
 
