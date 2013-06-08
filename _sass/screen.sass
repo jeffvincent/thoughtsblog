@@ -1,10 +1,11 @@
 ////////// vars //////////////
 
 $main_title_and_date_color: #999
-$title_color: #444
-$emphasis_color: #BC7134
+$title_color: #333
 $wistia_blue: #81c2f0
-$index_link_color: #1B56E0
+$index_link_color: #6398F4
+$emphasis_color: $index_link_color
+$green: #77cc33
 $padding: 25px
 $fonts: 'Lato', Helvetica, sans-serif
 $header_fonts: 'Gentium Book Basic', Georgia, serif
@@ -97,7 +98,7 @@ body
     padding: $padding
 
 #main_header
-  border-bottom: 3px solid #DDD  
+  border-bottom: 2px solid #CCC
   margin-bottom: 20px
   width: 80%
   margin: 0 auto
@@ -109,7 +110,7 @@ body
     text-align: center
     margin-bottom: 10px
     a, a:hover
-      color: #CCC
+      color: #BBB
       text-decoration: none
   +breakpoint(small-screen)
     width: 100%
@@ -155,18 +156,18 @@ body
       font-size: 1.6rem
       margin-bottom: 0
     a
-      color: #333
+      color: $index_link_color
   .date_and_time
     span, i
       font-size: $padding/2
-      color: $main_title_and_date_color
+      color: $green
 
   .description
     p
       max-width: 500px
       font-size: 16px
       white-space: normal
-      color: #333
+      color: #777
       line-height: 160%
 
 // pagination //
@@ -179,7 +180,6 @@ body
   a, span
     padding: 0 20px
   a
-    text-decoration: none
     color: $index_link_color
   span.previous, span.next
     color: #888
@@ -201,23 +201,25 @@ body
         font-size: 38px
     .date
       font-size: 14px
-      color: $main_title_and_date_color
+      color: $green
 
   // content //
   .post_content
     color: $title_color
     font-family: $fonts
-    font-size: 17px
+    font-size: 18px
     pre
       @extend pre
+      code
+        font-size: 14px
     code
       @extend code
+      font-size: 16px
     h2
       font-size: 3.2rem
       color: $title_color
       margin: $padding 0
     p
-      font-size: 17px
       line-height: 160%
       margin-top: $padding
       a
@@ -256,7 +258,8 @@ body
     +darken-text($title_color)
   .comments
     margin-top: $padding*2
-
+    a
+      font-size: 14px
   // Post Images //
   .post_banner_image
     text-align: center
