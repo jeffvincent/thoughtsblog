@@ -17,6 +17,7 @@
       #main_header
         %h1
           %a{ href: "/" } A Beginner's Life
+        {% if page.homepage == true %}{% include bio.html %}{% endif %}
       %section
         {{ content }}
 
