@@ -618,9 +618,9 @@ figure.code .il, .gist-highlight .il {
 }
 /* line 19, ../_sass/_posts.sass */
 #post .post_content {
-  color: #333333;
+  color: #444444;
   font-family: "Lato", Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
 }
 /* line 25, ../_sass/_posts.sass */
 #post .post_content pre code {
