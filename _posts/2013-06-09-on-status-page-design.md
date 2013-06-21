@@ -101,7 +101,7 @@ investment in the information a status page could provide. Some would want a
 quick infrastructure overview, others would be interested in the nitty-gritty
 of the technical issue we were experiencing (and how we ended up solving it!).
 
-### At a Glance View
+**At a Glance View**
 
 For the high-level overview, a simple <i class="icon-check-sign" style="color: green;"></i> or a
 <i class="icon-remove-sign" style="color: red;"></i> alone weren't going to cut 
@@ -113,7 +113,7 @@ Joe and Liat teamed up to create a set of icons, one for each Wistia service.
 These provide at-a-glance status, *red*, *yellow*, or *green* (hopefully they
 are green all the time).
 
-### In-Depth Posts
+**In-Depth Posts**
 
 Especially when things are down, we needed a place to explain the issue and a
 timetable for when a fix would be ready. To make this status page a customer 
