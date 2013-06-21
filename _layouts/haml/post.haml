@@ -12,3 +12,9 @@ comments: true
       {{ content }}
     .comments
       {% include disqus.html %}
+    .year
+      %span
+        &mdash; 
+        %a{ href: '//plus.google.com/114606800539750076812/', rel: 'publisher' }
+          made in {{ page.date | date: "%Y" }} 
+        &mdash;

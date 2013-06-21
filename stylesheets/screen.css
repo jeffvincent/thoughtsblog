@@ -767,6 +767,18 @@ figure.code .il, .gist-highlight .il {
   color: #81c2f0;
 }
 
+/* line 120, ../_sass/_posts.sass */
+.year {
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 123, ../_sass/_posts.sass */
+.year span, .year a {
+  color: #bbbbbb;
+  font-size: 13px;
+  text-decoration: none;
+}
+
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
 /* line 2, ../_sass/_ss_icons.sass */
 html:hover [class^="ss-"] {
