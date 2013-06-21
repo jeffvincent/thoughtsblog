@@ -906,18 +906,20 @@ body {
   color: #bbbbbb;
   text-decoration: none;
 }
-@media (max-width: 650px) {
+@media (max-width: 960px) {
   /* line 105, ../_sass/screen.sass */
   #main_header {
     width: 100%;
   }
-  /* line 122, ../_sass/screen.sass */
+}
+@media (max-width: 650px) {
+  /* line 123, ../_sass/screen.sass */
   #main_header h1 {
     font-size: 40px;
   }
 }
 
-/* line 125, ../_sass/screen.sass */
+/* line 126, ../_sass/screen.sass */
 .content {
   width: 80%;
   font-size: 1.5rem;
@@ -925,7 +927,7 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 960px) {
-  /* line 125, ../_sass/screen.sass */
+  /* line 126, ../_sass/screen.sass */
   .content {
     width: 100%;
   }
