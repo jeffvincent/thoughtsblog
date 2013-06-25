@@ -11,7 +11,7 @@ comments: true
         %span {{ page.date | date: "%B %d, %Y" }}
         %i.icon-time
         %span
-          {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min' }}
+          {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
     .post_content
       {{ content }}
     .comments
