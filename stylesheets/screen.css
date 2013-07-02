@@ -10,8 +10,8 @@
 }
 
 /* line 59, ../_sass/screen.sass */
-#post .title_and_date h1, h1, h2, h3 {
-  font-family: "Gentium Book Basic", Georgia, serif;
+h1, h2, h3, a, #main_header {
+  -webkit-font-smoothing: antialiased;
 }
 
 /* line 13, ../_sass/_syntax_highlighting.sass */
@@ -837,37 +837,38 @@ html:hover [class^="ss-"] {
   content: "✉";
 }
 
-/* line 76, ../_sass/screen.sass */
+/* line 75, ../_sass/screen.sass */
 body, p, a, li {
   font-family: "Lato", Helvetica, sans-serif;
 }
 
-/* line 79, ../_sass/screen.sass */
+/* line 78, ../_sass/screen.sass */
 h1, h2, h3 {
+  font-family: "Gentium Book Basic", Georgia, serif;
   margin: 0;
 }
 
-/* line 83, ../_sass/screen.sass */
+/* line 85, ../_sass/screen.sass */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 86, ../_sass/screen.sass */
+/* line 88, ../_sass/screen.sass */
 img {
   max-width: 100%;
 }
 
-/* line 89, ../_sass/screen.sass */
+/* line 91, ../_sass/screen.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 92, ../_sass/screen.sass */
+/* line 94, ../_sass/screen.sass */
 body {
   background-color: #eeeeee;
 }
 
-/* line 95, ../_sass/screen.sass */
+/* line 97, ../_sass/screen.sass */
 .container {
   width: 80%;
   background-color: white;
@@ -876,14 +877,14 @@ body {
   padding: 50px;
 }
 @media (max-width: 650px) {
-  /* line 95, ../_sass/screen.sass */
+  /* line 97, ../_sass/screen.sass */
   .container {
     width: 100%;
     padding: 25px;
   }
 }
 
-/* line 105, ../_sass/screen.sass */
+/* line 107, ../_sass/screen.sass */
 #main_header {
   border-bottom: 2px solid #cccccc;
   margin-bottom: 20px;
@@ -893,7 +894,7 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
-/* line 111, ../_sass/screen.sass */
+/* line 114, ../_sass/screen.sass */
 #main_header h1 {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-weight: 400;
@@ -901,25 +902,25 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 117, ../_sass/screen.sass */
+/* line 120, ../_sass/screen.sass */
 #main_header h1 a, #main_header h1 a:hover {
   color: #bbbbbb;
   text-decoration: none;
 }
 @media (max-width: 960px) {
-  /* line 105, ../_sass/screen.sass */
+  /* line 107, ../_sass/screen.sass */
   #main_header {
     width: 100%;
   }
 }
 @media (max-width: 650px) {
-  /* line 123, ../_sass/screen.sass */
+  /* line 126, ../_sass/screen.sass */
   #main_header h1 {
     font-size: 40px;
   }
 }
 
-/* line 126, ../_sass/screen.sass */
+/* line 129, ../_sass/screen.sass */
 .content {
   width: 80%;
   font-size: 1.5rem;
@@ -927,7 +928,7 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 960px) {
-  /* line 126, ../_sass/screen.sass */
+  /* line 129, ../_sass/screen.sass */
   .content {
     width: 100%;
   }
