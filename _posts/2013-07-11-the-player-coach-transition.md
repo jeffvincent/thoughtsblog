@@ -8,7 +8,7 @@ description:
 category: growth, team
 ---
 
-(image of player-coach?)
+<div class="post_image"><img src="http://embed.wistia.com/deliveries/1478a0e56283c6ee8d6e8da2dbf83500a52807a5.png" alt="pete rose player coach"/></div>
 
 The last six months or so have been full of learning and transition. At the
 start of 2013, my time was mostly spent in our support inbox, communicating
@@ -54,7 +54,7 @@ Here's how I do it:
 
 At the start of each week, I lay out my goals. I organize them
 into *player* activities and *coach* activities. For example, last week I
-finished our implementation of the awesome [MailView gem](http://github.com/37signals/mail_view)
+finished our implementation of the awesome [MailView gem](https://github.com/37signals/mail_view)
 (player activity) and also worked with Max to better analyze our pre-sales
 communication activities (coach activity).
 
@@ -100,8 +100,8 @@ thought about it."
 I was also horribly allergic to meetings of any sort. I could feel the inbox
 queue growing with each passing minute of even the most productive
 conversation. This led to some poor communication and a real lack of
-collaboration. While this helped me alleviate [inbox guilt]() in the
-short-term, it didn't help elevate our customer experience at all.
+collaboration. While this helped me alleviate [inbox guilt](http://carokopp.com/post/41069593202/inbox-guilt-psychology)
+in the short-term, it didn't help elevate our customer experience at all.
 
 A brilliant customer experience relies on customer happiness, development,
 marketing, and design working (and yes, meeting) together. We've got some
