@@ -2,8 +2,9 @@
 layout: post
 title: "Court Vision Required"
 description:
-  We're not looking for someone to come in, do their job, and head out. Vision,
-  even short- to mid-term vision, is required.
+  What makes someone on our small team succeed? It's a combination of
+  ownership, and the drive/ability to see into the future. I like to call it
+  court vision.
 category: startups, growth, hiring, culture
 ---
 
