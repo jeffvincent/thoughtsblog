@@ -32,13 +32,13 @@ To remain one step ahead of the game, we need *vision*. We need folks who
 continually evaluate what they are working on: how it fits into the company's
 mission, how it helps us move forward, how it helps our customers.
 
-Just to be clear, I'm not saying must be a *visionary*, looking deep
+Just to be clear, I'm not saying everyone must be a *visionary*, looking deep
 into the future to determine how we as a company should act. We'd be pretty
 short staffed if that was a requirement - there are not many true visionaries
 out there. Having multiple long-term visionaries would also cause a whole host
 of problems (too many cooks in our long-term planning kitchen).
 
-Instead, I'm talking about the ability to look around, see how each small action
+Instead, I'm talking about the ability to look around, see how each small project
 fits into our long-term vision, and take action when needed.
 
 ---
@@ -53,9 +53,10 @@ Having excellent court vision requires executing well, and taking risks. It
 requires leaps of faith, confidence, and speaking out of turn.
 
 To have court vision, you must plunge into the problem, study the options, and take them to
-their future conclusions. To tackle new problems, you must think ahead to your
-ideal solution, and then lay out the plan to get there. This can sometimes mean
-scrapping work, even in full-swing, because it's not the right thing to be doing.
+their future conclusions. To tackle new problems (especially those with no
+precedent), you must think ahead to your ideal solution, and then lay out the
+plan to get there. This can sometimes mean scrapping work, even in full-swing,
+because it's not the right thing to be doing.
 
 ---
 
@@ -65,15 +66,16 @@ amount of scrutiny, i.e. "should we be answering this earlier in the user
 experience? If so, where?".
 
 If there is a practice (no matter how entrenched and common practice it is)
-that causes more problems than it solves, we should stop it. Conversely, if
-there is a new practice we should implement, regardless of the work required to
-get it set up, because it is the best way to deliver support, we should do it.
+that causes more problems than it solves, we should stop it. If there is a new
+practice we should implement, regardless of the work required to get it set up,
+because it is the best way to deliver support, we should do it.
+
 Jordan, Mercer, and Max do a great job identifying what we should be doing,
 outside of just responding to emails, in order to improve their lives and
 ultimately the customer's lives.
 
 The best support people don't blink at a crushing volume of support - they see
-it as solving problems for customers (which is a good and exciting thing for
+it as solving problems for customers (which is a good and exciting thing to
 them). But they will try to get at the root of the problem, and understand what we
 should be doing better.
 
