@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Being Held By The Hand
+title: Hand Hold vs. Empower
 description: Even as most customers transition to wanting more self-service
   support, we have to address those that demand hand holding.
 category: support
