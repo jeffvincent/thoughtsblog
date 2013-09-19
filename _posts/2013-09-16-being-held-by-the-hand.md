@@ -6,6 +6,8 @@ description: Even as most customers transition to wanting more self-service
 category: support
 ---
 
+<div class="post-image"><img src="http://embed.wistia.com/deliveries/5803b9a8587efca6a323e31af603b28971b87a28.png" alt="brendan with awesome glasses" /></div>
+
 I've been preparing my talk for [UserConf](http://userconf.co/) for a few weeks
 now. A lot of it is spent talking through dialogue by myself, which gets pretty
 monotonous. The best part about the experience so far has been the chance to
