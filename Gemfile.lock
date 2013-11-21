@@ -36,7 +36,7 @@ GEM
       thor (>= 0.13.6)
     fssm (0.2.10)
     gemoji (1.4.0)
-    haml (4.0.2)
+    haml (4.0.4)
       tilt
     heroku (2.28.15)
       heroku-api (~> 0.2.12)
@@ -72,6 +72,7 @@ GEM
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
     raindrops (0.11.0)
+    rake (10.1.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (0.9.9)
@@ -91,13 +92,14 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
-  compass
-  foreman
+  compass (~> 0.12.2)
+  foreman (~> 0.63.0)
   gemoji
-  haml
+  haml (~> 4.0.4)
   heroku (~> 2.28.7)
-  jekyll (~> 1.0.0)
+  jekyll (~> 1.0.2)
   rack-jekyll!
+  rake (~> 10.1.0)
   rdiscount!
-  sass
+  sass (~> 3.2.9)
   unicorn (~> 4.3.1)
