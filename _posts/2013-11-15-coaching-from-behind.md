@@ -19,68 +19,82 @@ Coach Rudolph, or Rudy as we called him, was also my U.S. History teacher. He
 was not a physically imposing guy - maybe 5'4" and 150 soaking wet. He had a
 teacher's disposition and spat a lot while he talked.
 
+I can vividly remember Coach running up and down the field, the lacrosse stick
+dangling useless in his hand. When a ball was thrown his way, he often dropped
+it, and then had trouble picking it up.
+
 Coach Rudolph had never played lacrosse. To my knowledge, he had never played
-any sports. But his track record as a coach was unbelievable - his women's
-tennis team has *still* never lost a match a home, some years losing barely a
-set.
+any sports a day in his life. But his track record as a coach was unassailable.
+Coach Rudolph also coached women's tennis - a team has *still* never lost a
+match a home, some years losing barely a set.
 
-I wish I knew Coach Rudolph's formula. But this post isn't really about analyzing
-his leadership style or sussing out some leadership secrets. Instead, it's
-about acknowledging what Coach Rudolph was doing then, and what I've felt
-challenged with now - what I call **coaching from behind**.
+Coach Rudolph couldn't really lead by example. He couldn't impress us with his
+skills or swagger, and he couldn't tell us stories of his legendary victories
+in order to gain our respect. 
 
-Coach Rudolph couldn't really lead by example, and he couldn't tell us stories
-of his legendary victories to gain our respect. We snickered when he ran up and
-down the field with a lacrosse stick in his hand, clearly no idea how to use it.
-When a ball was thrown his way, he often dropped it, and then had trouble
-picking it up.
+Instead, we trusted Coach Rudolph because he knew our strengths and weaknesses,
+and knew how to combine this group of unruly young men together to **win**. He
+was the first person in my life to practice something I call **Coaching From
+Behind**.
 
-Instead, I think we trusted Coach Rudolph because he knew our strengths and
-weaknesses, and knew how to combine this group of unruly young men together to
-**win**.
+Lately, I'm finding myself unable to lead by example. My team writes better
+emails, identifies flaws in my documentation, and tracks down trickier
+technical issues than I ever did. I gave up the inbox begrudgingly, and it took
+me some time to re-find my value in this company without it.
+
+But it was clearly the right thing to do - the support inbox is marked with
+more huge victories - angry customers turned to evangelists, confused customers
+turned into successful Wistia users - than ever before. It's a thing of beauty,
+and I'm damn lucky to see it.
+
+So I'm reflecting on Coach Rudolph. I'm thinking about coaching from behind.
+
+## What does a good coach do?
+
+First, a good coach focuses on the long-term, and knows the short-term results
+will come. Sir Alex Ferguson talks about this in
+[his interview with Charlie Rose](http://www.youtube.com/watch?v=vS0hj4kiqsA)
+(I highly recommend taking the time to watch it). This means meddling *less*, and
+thinking about where we're going *more*. I need to learn what our customers
+want from our support experience, and how we can constantly improve.
+
+A good coach knows that process, and reinforcing good process, will scale
+themselves far better than micromanagement. Coach Rudolph would run us through
+a ground ball drill consistently, and the only time I ever saw him angry was
+when we didn't take that drill seriously. During games, he counted the ground
+balls we won more closely than who scored the goals. While the goals get the
+glory, he knew winning the ground balls made it happen.
+
+Finally, a good coach inspires leadership in those they are leading. [Watch
+this talk](http://www.youtube.com/watch?v=OqmdLcyES_Q) (illustrated, because
+pictures are awesome) by Captain David Marquet, it will tell you everything you
+need to know. Set the vision and communicate it well, and make sure those you
+work with know they are empowered to make decisions that move us closer to that
+vision. I'm lucky, I think everyone on my team would have quit Day 1 if we
+didn't operate that way {{ ':thumbsup:' | emojify }}.
 
 ---
 
-Today, I'm finding myself unable to always lead by example. My team writes
-better emails, identifies flaws in my documentation, and tracks down trickier
-technical issues than I ever did. Their time in our support inbox is marked
-with huge victories - angry customers turned to evangelists, confused customers
-turned into happy (and successful) Wistia users. It's a thing of beauty, and
-I'm pretty damn lucky to be able to see it.
+The biggest challenge for me is that none of this is my strong-suit. None of 
+this is the stuff I gravitate towards naturally. Instead, I go out of my way to 
+entangle myself deep in the weeds on specific projects that don't lend 
+themselves to high-level thinking or data gathering. I'm still busy 
+accumulating personal wins and putting out fires, rather than thinking about 
+the strengths and weaknesses of my team and how their talents can be combined 
+to make a whole that is greater than the sum of the parts.
 
-I also abhor the idea of gaining my team's respect by reliving old victories
-won. I'd prefer to share the relationships with our customers as a team - we've
-learned we provide better, more scalable support when customer's don't feel
-like they have an *account rep*.
+I need to spend more time listening, and less time talking. I should be
+providing slight course adjustments, not setting agendas. And I need to spend 
+more time connecting with and listening to our customers, so I can prepare us
+for our next big leap. If I truly care about our customers getting the fastest,
+highest-quality help, that's my best course forward.
 
-To coach from behind, I need to think about where we're going, and what our
-customers deserve from our customer support experience. I need to think about
-what this new breed of customer service looks like - Saas companies that want
-to stay small, nimble, and happy but still provide the type of
-relationship-building service that will help us grow exponentially.
+My job now is to take everything I've learned, compact it down so it's easy to
+share, and then pass that along to the team. They will take my experience,
+improve upon it, and then scale it beyond what I can do alone. Combine that
+with the skills they came in with, we are making a pretty unstoppable force for
+good.
 
-The biggest challenge for me when it comes to coaching from behind is that it's
-not my natural strong-suit. I constantly find myself in the weeds on specific
-projects that don't lend themselves to high-level thinking or data
-gathering. I'm still busy accumulating personal wins and putting out fires,
-rather than thinking about the strengths and weaknesses of my team and how
-their talents can be combined to make a whole that is greater than the sum of
-the parts.
-
-The one thing I do have going for myself is a strong opinionated and well-grounded
-intuition. I spent years talking to customers, learning what provided them real
-value and what ended up being surface level fluff. My job now is to pass that
-along to the team, because they will take my experience and scale it beyond
-what I can do alone. Combined with their skills, we can make a pretty
-unstoppable force for good.
-
-I've set it as a goal for myself to spend more time listening, more time doing
-slight course adjustments, and more time plotting out our next big leaps. If I
-truly care about our customers getting the fastest, highest-quality help,
-that's my best course forward.
-
-If I can provide a strong vision, and if I can communicate where we should end up
-and why that will mean success for us, I can set a path that we all walk
-together. It's a pretty awesome gig if you can get it {{ ":smiley:" | emojify }}.
+This is a pretty awesome gig if you can get it {{ ":smiley:" | emojify }}.
 
 *image credit: Flickr user [sportfan_ch](http://www.flickr.com/photos/sportfan_ch/10318031266/in/pool-soccerkids)*
