@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic);
 @font-face {
   font-family: "SSSocial";
@@ -9,7 +8,7 @@
   font-style: normal;
 }
 
-/* line 59, ../_sass/screen.sass */
+/* line 58, ../_sass/screen.sass */
 h1, h2, h3, a, #main_header {
   -webkit-font-smoothing: antialiased;
 }
@@ -185,7 +184,7 @@ figure.code td.code {
 }
 /* line 129, ../_sass/_syntax_highlighting.sass */
 .entry-content .gist .gist-file .gist-meta {
-  font: 300 0.9em "Lato", Helvetica, sans-serif;
+  font: 300 0.9em "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
   margin: 0 -16px -6px;
   padding: 5px 15px;
@@ -620,8 +619,8 @@ figure.code .il, .gist-highlight .il {
 /* line 19, ../_sass/_posts.sass */
 #post .post_content {
   color: #444444;
-  font-family: "Lato", Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 22px;
 }
 /* line 25, ../_sass/_posts.sass */
 #post .post_content pre code {
@@ -633,8 +632,8 @@ figure.code .il, .gist-highlight .il {
 }
 /* line 30, ../_sass/_posts.sass */
 #post .post_content h2 {
-  font-size: 28px;
-  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 32px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   color: #333333;
   margin: 25px 0;
 }
@@ -837,38 +836,38 @@ html:hover [class^="ss-"] {
   content: "✉";
 }
 
-/* line 75, ../_sass/screen.sass */
+/* line 74, ../_sass/screen.sass */
 body, p, a, li {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 78, ../_sass/screen.sass */
+/* line 77, ../_sass/screen.sass */
 h1, h2, h3 {
   font-family: "Gentium Book Basic", Georgia, serif;
   margin: 0;
 }
 
-/* line 85, ../_sass/screen.sass */
+/* line 84, ../_sass/screen.sass */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 88, ../_sass/screen.sass */
+/* line 87, ../_sass/screen.sass */
 img {
   max-width: 100%;
 }
 
-/* line 91, ../_sass/screen.sass */
+/* line 90, ../_sass/screen.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 94, ../_sass/screen.sass */
+/* line 93, ../_sass/screen.sass */
 body {
   background-color: #eeeeee;
 }
 
-/* line 97, ../_sass/screen.sass */
+/* line 96, ../_sass/screen.sass */
 .container {
   width: 80%;
   background-color: white;
@@ -877,14 +876,14 @@ body {
   padding: 50px;
 }
 @media (max-width: 650px) {
-  /* line 97, ../_sass/screen.sass */
+  /* line 96, ../_sass/screen.sass */
   .container {
     width: 100%;
     padding: 25px;
   }
 }
 
-/* line 107, ../_sass/screen.sass */
+/* line 106, ../_sass/screen.sass */
 #main_header {
   border-bottom: 2px solid #cccccc;
   margin-bottom: 20px;
@@ -894,7 +893,7 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
-/* line 114, ../_sass/screen.sass */
+/* line 113, ../_sass/screen.sass */
 #main_header h1 {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-weight: 400;
@@ -902,25 +901,25 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 120, ../_sass/screen.sass */
+/* line 119, ../_sass/screen.sass */
 #main_header h1 a, #main_header h1 a:hover {
   color: #bbbbbb;
   text-decoration: none;
 }
 @media (max-width: 960px) {
-  /* line 107, ../_sass/screen.sass */
+  /* line 106, ../_sass/screen.sass */
   #main_header {
     width: 100%;
   }
 }
 @media (max-width: 650px) {
-  /* line 126, ../_sass/screen.sass */
+  /* line 125, ../_sass/screen.sass */
   #main_header h1 {
     font-size: 40px;
   }
 }
 
-/* line 129, ../_sass/screen.sass */
+/* line 128, ../_sass/screen.sass */
 .content {
   width: 80%;
   font-size: 1.5rem;
@@ -928,7 +927,7 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 960px) {
-  /* line 129, ../_sass/screen.sass */
+  /* line 128, ../_sass/screen.sass */
   .content {
     width: 100%;
   }
