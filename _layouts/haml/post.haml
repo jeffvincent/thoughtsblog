@@ -1,6 +1,5 @@
 \---
 layout: base
-comments: true
 \---
 
 .content
@@ -14,8 +13,6 @@ comments: true
           {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
     .post_content
       {{ content }}
-    .comments
-      {% include disqus.html %}
     .year
       %span
         &mdash; 

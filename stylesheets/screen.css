@@ -693,87 +693,79 @@ figure.code .il, .gist-highlight .il {
   width: 252px;
   color: #262626;
 }
-/* line 73, ../_sass/_posts.sass */
-#post .comments {
-  margin-top: 50px;
-}
-/* line 75, ../_sass/_posts.sass */
-#post .comments a {
-  font-size: 14px;
-}
-/* line 78, ../_sass/_posts.sass */
+/* line 74, ../_sass/_posts.sass */
 #post .post_banner_image {
   text-align: center;
 }
-/* line 80, ../_sass/_posts.sass */
+/* line 76, ../_sass/_posts.sass */
 #post .post_banner_image img {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 82, ../_sass/_posts.sass */
+/* line 78, ../_sass/_posts.sass */
 #post .post_image {
   text-align: center;
 }
-/* line 84, ../_sass/_posts.sass */
+/* line 80, ../_sass/_posts.sass */
 #post .post_image img {
   border: 4px solid #dddddd;
 }
 
-/* line 89, ../_sass/_posts.sass */
+/* line 85, ../_sass/_posts.sass */
 .disclaimer {
   padding-left: 15px;
   border-left: 10px solid rgba(255, 255, 0, 0.4);
   margin-left: 0;
 }
 
-/* line 94, ../_sass/_posts.sass */
+/* line 90, ../_sass/_posts.sass */
 .float_left {
   float: left;
 }
 
-/* line 99, ../_sass/_posts.sass */
+/* line 95, ../_sass/_posts.sass */
 .right_col {
   text-align: right;
   vertical-align: top;
   margin-top: 32px;
 }
-/* line 103, ../_sass/_posts.sass */
+/* line 99, ../_sass/_posts.sass */
 .right_col #bio {
   position: relative;
 }
 @media (max-width: 650px) {
-  /* line 103, ../_sass/_posts.sass */
+  /* line 99, ../_sass/_posts.sass */
   .right_col #bio {
     text-align: center;
     width: 100%;
   }
 }
-/* line 108, ../_sass/_posts.sass */
+/* line 104, ../_sass/_posts.sass */
 .right_col #bio #bio_pic {
   background: transparent url(http://gravatar.com/avatar/236b71872405f00ef210cded00a8fd93) center no-repeat;
   margin: 0 auto 10px;
   height: 80px;
   width: 80px;
 }
-/* line 113, ../_sass/_posts.sass */
+/* line 109, ../_sass/_posts.sass */
 .right_col #bio p {
   font-size: 1.5rem;
   color: #999999;
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 118, ../_sass/_posts.sass */
+/* line 114, ../_sass/_posts.sass */
 .right_col #bio p a {
   color: #81c2f0;
 }
 
-/* line 121, ../_sass/_posts.sass */
+/* line 117, ../_sass/_posts.sass */
 .year {
   margin-top: 30px;
   text-align: center;
 }
-/* line 124, ../_sass/_posts.sass */
+/* line 120, ../_sass/_posts.sass */
 .year span, .year a {
   color: #bbbbbb;
   font-size: 13px;
