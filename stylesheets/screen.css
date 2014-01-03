@@ -8,7 +8,7 @@
   font-style: normal;
 }
 
-/* line 58, ../_sass/screen.sass */
+/* line 59, ../_sass/screen.sass */
 h1, h2, h3, a, #main_header {
   -webkit-font-smoothing: antialiased;
 }
@@ -635,12 +635,12 @@ figure.code .il, .gist-highlight .il {
   font-size: 32px;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   color: #333333;
-  margin: 25px 0;
+  margin: 40px 0;
 }
 /* line 35, ../_sass/_posts.sass */
 #post .post_content p {
-  line-height: 160%;
-  margin-top: 25px;
+  line-height: 180%;
+  margin: 40px 0;
   font-weight: 300;
 }
 /* line 39, ../_sass/_posts.sass */
@@ -828,38 +828,38 @@ html:hover [class^="ss-"] {
   content: "✉";
 }
 
-/* line 74, ../_sass/screen.sass */
+/* line 75, ../_sass/screen.sass */
 body, p, a, li {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 77, ../_sass/screen.sass */
+/* line 78, ../_sass/screen.sass */
 h1, h2, h3 {
   font-family: "Gentium Book Basic", Georgia, serif;
   margin: 0;
 }
 
-/* line 84, ../_sass/screen.sass */
+/* line 85, ../_sass/screen.sass */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 87, ../_sass/screen.sass */
+/* line 88, ../_sass/screen.sass */
 img {
   max-width: 100%;
 }
 
-/* line 90, ../_sass/screen.sass */
+/* line 91, ../_sass/screen.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 93, ../_sass/screen.sass */
+/* line 94, ../_sass/screen.sass */
 body {
   background-color: #eeeeee;
 }
 
-/* line 96, ../_sass/screen.sass */
+/* line 97, ../_sass/screen.sass */
 .container {
   width: 80%;
   background-color: white;
@@ -868,14 +868,14 @@ body {
   padding: 50px;
 }
 @media (max-width: 650px) {
-  /* line 96, ../_sass/screen.sass */
+  /* line 97, ../_sass/screen.sass */
   .container {
     width: 100%;
     padding: 25px;
   }
 }
 
-/* line 106, ../_sass/screen.sass */
+/* line 107, ../_sass/screen.sass */
 #main_header {
   border-bottom: 2px solid #cccccc;
   margin-bottom: 20px;
@@ -885,7 +885,7 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
-/* line 113, ../_sass/screen.sass */
+/* line 114, ../_sass/screen.sass */
 #main_header h1 {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-weight: 400;
@@ -893,33 +893,33 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 119, ../_sass/screen.sass */
+/* line 120, ../_sass/screen.sass */
 #main_header h1 a, #main_header h1 a:hover {
   color: #bbbbbb;
   text-decoration: none;
 }
 @media (max-width: 960px) {
-  /* line 106, ../_sass/screen.sass */
+  /* line 107, ../_sass/screen.sass */
   #main_header {
     width: 100%;
   }
 }
 @media (max-width: 650px) {
-  /* line 125, ../_sass/screen.sass */
+  /* line 126, ../_sass/screen.sass */
   #main_header h1 {
     font-size: 40px;
   }
 }
 
-/* line 128, ../_sass/screen.sass */
+/* line 129, ../_sass/screen.sass */
 .content {
-  width: 80%;
+  width: 75%;
   font-size: 1.5rem;
   padding: 25px 0;
   margin: 0 auto;
 }
 @media (max-width: 960px) {
-  /* line 128, ../_sass/screen.sass */
+  /* line 129, ../_sass/screen.sass */
   .content {
     width: 100%;
   }
