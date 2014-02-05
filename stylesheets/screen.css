@@ -184,7 +184,7 @@ figure.code td.code {
 }
 /* line 129, ../_sass/_syntax_highlighting.sass */
 .entry-content .gist .gist-file .gist-meta {
-  font: 300 0.9em "Helvetica Neue", Helvetica, sans-serif;
+  font: 300 0.9em Georgia, serif;
   line-height: 1.5;
   margin: 0 -16px -6px;
   padding: 5px 15px;
@@ -619,7 +619,7 @@ figure.code .il, .gist-highlight .il {
 /* line 19, ../_sass/_posts.sass */
 #post .post_content {
   color: #444444;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Georgia, serif;
   font-size: 22px;
 }
 /* line 25, ../_sass/_posts.sass */
@@ -633,7 +633,7 @@ figure.code .il, .gist-highlight .il {
 /* line 30, ../_sass/_posts.sass */
 #post .post_content h2 {
   font-size: 32px;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Georgia, serif;
   color: #333333;
   margin: 40px 0;
 }
@@ -830,7 +830,7 @@ html:hover [class^="ss-"] {
 
 /* line 75, ../_sass/screen.sass */
 body, p, a, li {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Georgia, serif;
 }
 
 /* line 78, ../_sass/screen.sass */
