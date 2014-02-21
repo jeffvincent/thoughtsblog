@@ -124,8 +124,9 @@ Rituals like our Show and Tell, where work *in progress* and *lessons learned*
 can be shared openly by every member of the team, create a culture that is more
 accepting of feedback and failure. Our leadership also values learning, and the
 sharing of that learning, over short-term success. I'm really proud of our
-recent [Top Hat Tuesday review](). The shuttering of a content endeavour, and
-acceptance that we didn't "kill it", was tough but oh-so-necessary.
+recent [Top Hat Tuesday review](http://wistia.com/blog/the-top-hat-mistake). 
+The shuttering of a content endeavour, and acceptance that we didn't "kill it",
+was tough but oh-so-necessary.
 
 
 ---
@@ -133,7 +134,7 @@ acceptance that we didn't "kill it", was tough but oh-so-necessary.
 
 So here we are, still chugging along. We've found some *amazing* folks to join
 us, co-workers who are dedicated and awesome at what they do (by the way, [you
-should too]()).
+should too](http://wistia.theresumator.com/apply/)).
 
 The Wild West is gone. But it's been replaced with a new world with it's own
 exciting challenges. I'm pumped to see how we navigate it.
