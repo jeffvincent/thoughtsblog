@@ -505,17 +505,18 @@ figure.code .il, .gist-highlight .il {
 .post_index_item .title h1 {
   font-size: 1.6rem;
   margin-bottom: 0;
+  font-weight: normal;
 }
-/* line 30, ../_sass/_index_page.sass */
+/* line 31, ../_sass/_index_page.sass */
 .post_index_item .title a {
   color: #6398f4;
 }
-/* line 33, ../_sass/_index_page.sass */
+/* line 34, ../_sass/_index_page.sass */
 .post_index_item .date_and_time span, .post_index_item .date_and_time i {
   font-size: 12.5px;
   color: #77cc33;
 }
-/* line 38, ../_sass/_index_page.sass */
+/* line 39, ../_sass/_index_page.sass */
 .post_index_item .description p {
   max-width: 500px;
   font-size: 16px;
@@ -524,45 +525,45 @@ figure.code .il, .gist-highlight .il {
   line-height: 160%;
 }
 @media (max-width: 650px) {
-  /* line 37, ../_sass/_index_page.sass */
+  /* line 38, ../_sass/_index_page.sass */
   .post_index_item .description {
     display: none;
   }
 }
 
-/* line 50, ../_sass/_index_page.sass */
+/* line 51, ../_sass/_index_page.sass */
 #bio {
   text-align: center;
   color: #cccccc;
 }
-/* line 53, ../_sass/_index_page.sass */
+/* line 54, ../_sass/_index_page.sass */
 #bio p {
   margin: 5px 0 10px;
 }
-/* line 55, ../_sass/_index_page.sass */
+/* line 56, ../_sass/_index_page.sass */
 #bio a {
   text-decoration: none;
   color: #77cc33;
 }
-/* line 58, ../_sass/_index_page.sass */
+/* line 59, ../_sass/_index_page.sass */
 #bio a:visited {
   color: #77cc33;
 }
-/* line 60, ../_sass/_index_page.sass */
+/* line 61, ../_sass/_index_page.sass */
 #bio a:hover {
   text-decoration: underline;
 }
-/* line 62, ../_sass/_index_page.sass */
+/* line 63, ../_sass/_index_page.sass */
 #bio .icon {
   color: #6398f4;
   font-size: 22px;
 }
-/* line 65, ../_sass/_index_page.sass */
+/* line 66, ../_sass/_index_page.sass */
 #bio .icon:hover {
   text-decoration: none;
   color: #6398f4;
 }
-/* line 68, ../_sass/_index_page.sass */
+/* line 69, ../_sass/_index_page.sass */
 #bio .icon:before {
   font-family: "SSSocial";
   font-style: normal;
@@ -572,22 +573,22 @@ figure.code .il, .gist-highlight .il {
   text-decoration: none;
 }
 
-/* line 86, ../_sass/_index_page.sass */
+/* line 87, ../_sass/_index_page.sass */
 .pagination {
   text-align: center;
   margin-top: 40px;
   font-size: 14px;
   color: #444444;
 }
-/* line 91, ../_sass/_index_page.sass */
+/* line 92, ../_sass/_index_page.sass */
 .pagination a, .pagination span {
   padding: 0 20px;
 }
-/* line 93, ../_sass/_index_page.sass */
+/* line 94, ../_sass/_index_page.sass */
 .pagination a {
   color: #6398f4;
 }
-/* line 95, ../_sass/_index_page.sass */
+/* line 96, ../_sass/_index_page.sass */
 .pagination span.previous, .pagination span.next {
   color: #888888;
 }
