@@ -7,12 +7,19 @@ layout: base
     .title_and_date
       %h1 {{ page.title }}
       .date 
-        %span {{ page.date | date: "%B %d, %Y" }}
         %i.icon-time
         %span
           {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
     .post_content
       {{ content }}
+      .post_script
+        %p
+          %span P.S.
+          Every week, I send out a short newsletter with links to my favorite
+          articles from the week. When I write a new essay, that will be
+          included as well. Interest piqued?
+          %a{ href: 'http://eepurl.com/UpDZz', target: '_blank' } Sign up
+          to get your copy.
     .year
       %span
         &mdash; 

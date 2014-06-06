@@ -12,15 +12,14 @@ homepage: true
         <li class='title'>
           <h1><a href='{{ post.url }}'>{{ post.title }}</a></h1>
         </li>
+        <li class='description'>
+          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}</p>
+        </li>
         <li class='date_and_time'>
-          <span>{{ post.date | date: '%B %e, %Y' }}</span>
           <i class="icon-time"></i>
           <span>
             {{ post.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
           </span>
-        </li>
-        <li class='description'>
-          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt }}{% endif %}</p>
         </li>
       </ul>
     </li>
