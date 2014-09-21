@@ -622,7 +622,7 @@ figure.code .il, .gist-highlight .il {
 #post .post_content {
   color: #444444;
   font-family: Georgia, serif;
-  font-size: 22px;
+  font-size: 19px;
 }
 /* line 25, ../_sass/_posts.sass */
 #post .post_content pre code {
@@ -634,7 +634,7 @@ figure.code .il, .gist-highlight .il {
 }
 /* line 30, ../_sass/_posts.sass */
 #post .post_content h2, #post .post_content .post_script span, #post .post_script .post_content span {
-  font-size: 32px;
+  font-size: 26px;
   font-family: Georgia, serif;
   color: #333333;
   margin: 40px 0;
