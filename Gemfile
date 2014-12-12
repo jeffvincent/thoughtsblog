@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 ruby "2.1.2"
 
-gem "jekyll", "~> 1.0.2"
+gem "jekyll", "~> 1.5.1"
 gem "sass", "~> 3.2.9"
 gem "haml", "~> 4.0.4"
 gem "compass", "~> 0.12.2"
 gem "RedCloth"
 gem "heroku", "~> 3.20.0"
-gem 'rack-jekyll', :git => "https://github.com/adaoraul/rack-jekyll.git"
-gem "unicorn", "~> 4.3.1"
+gem 'rack-jekyll', '~> 0.4.1'
+gem "unicorn", "~> 4.8.3"
 gem "rdiscount", :git => "https://github.com/sunaku/rdiscount.git"
 gem "foreman", "~> 0.63.0"
 gem "gemoji"
