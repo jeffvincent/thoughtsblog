@@ -6,7 +6,7 @@ layout: base
   #post
     .title_and_date
       %h1 {{ page.title }}
-      .date 
+      .date
         %i.icon-time
         %span
           {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
@@ -14,15 +14,15 @@ layout: base
       {{ content }}
       .post_script
         %p
-          %span P.S.
+          %span.bold P.S.
           Every week, I send out a short newsletter with links to my favorite
-          articles from the week. When I write a new essay, that will be
-          included as well. Interest piqued?
+          articles. When I write a new essay, that will be
+          included as well.
           %a{ href: 'http://eepurl.com/UpDZz', target: '_blank' } Sign up
           to get your copy.
     .year
       %span
-        &mdash; 
+        &mdash;
         %a{ href: '//plus.google.com/114606800539750076812/', rel: 'publisher' }
-          made in {{ page.date | date: "%Y" }} 
+          made in {{ page.date | date: "%Y" }}
         &mdash;

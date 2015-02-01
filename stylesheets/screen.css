@@ -9,7 +9,7 @@
 }
 
 /* line 59, ../_sass/screen.sass */
-h1, h2, #post .post_script span, h3, a, #main_header {
+h1, h2, h3, a, #main_header {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -633,7 +633,7 @@ figure.code .il, .gist-highlight .il {
   font-size: 16px;
 }
 /* line 30, ../_sass/_posts.sass */
-#post .post_content h2, #post .post_content .post_script span, #post .post_script .post_content span {
+#post .post_content h2 {
   font-size: 26px;
   font-family: Georgia, serif;
   color: #333333;
@@ -694,6 +694,10 @@ figure.code .il, .gist-highlight .il {
   font-weight: bold;
   width: 252px;
   color: #262626;
+}
+/* line 74, ../_sass/_posts.sass */
+#post .post_script span {
+  font-weight: bold;
 }
 /* line 77, ../_sass/_posts.sass */
 #post .post_banner_image {
@@ -840,7 +844,7 @@ body, p, a, li {
 }
 
 /* line 78, ../_sass/screen.sass */
-h1, h2, #post .post_script span, h3 {
+h1, h2, h3 {
   font-family: "Gentium Book Basic", Georgia, serif;
   margin: 0;
 }
