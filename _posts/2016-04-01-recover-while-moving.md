@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recover while training"
+title: "Recover while moving"
 description: |
   When working on things for the long-term, it's important to manage
   your energy.
