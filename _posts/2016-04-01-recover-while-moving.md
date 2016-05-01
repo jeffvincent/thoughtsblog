@@ -7,15 +7,17 @@ description: |
 category: time, work
 ---
 
-Something we learned early on as cross country athletes was how to recover
-while moving. Our coach demanded we keep up a brisk pace between sprints or
-hill workouts. No matter how much I wanted to stop, keel over, and put my hands
-on my knees to breathe, his constant nagging kept me moving.
+We learned early on as cross country athletes how to recover while moving.
 
-As a result, we could use downhills or flat stretches during our races to
-recover, even just slightly, for an uphill push or final sprint. Being able to
-recover while moving made us superior athletes, even if the rest of our
-workouts were similar or even slower than our competitors.
+Our coach demanded we keep up a brisk pace between sprints or hill workouts. No
+matter how much I wanted to stop and put my hands on my knees to
+breathe, he would constantly nag to keep us moving.
+
+As it often does, this pain paid off. During tough races, we could use
+downhills or flat stretches to recover, even just slightly, for an uphill push
+or final sprint. Being able to _recover while moving_ made us superior athletes,
+even if the rest of our workouts were similar or even slower than our
+competitors.
 
 I started thinking about this concept a few weeks ago because I was in a funk.
 I was frustrated with my work, overwhelmed with emails and to-do list items,
