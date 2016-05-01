@@ -30,30 +30,34 @@ have likely been even better. What was required, instead, was listening to my
 body (and mind) and pushing the negative inner talk away.
 
 This wasn't my first time through this cycle - I've been at this work
-consistently for over five years. I've noticed a bit of a gentle peaks and
-valleys, which come and go over the course of a year. They are a natural part,
-I've come to believe, of working hard on creative projects. I can't yet feel a
-down cycle coming on, I can only tell when I'm in the thick of it. But now when
-I discover myself there, I've found a few ways to manage those, and achieve
-some recovering while moving in my work.
+consistently for five years or more. I've become more aware of the peaks and
+valleys, which come and go over the course of a year. At this point, I think of
+them as a natural part of working hard on creative projects.
 
-## Schedule vacations
+I can't yet feel a down cycle coming on, I can only tell when I'm in the thick
+of it. But when I discover myself there, I've found a few ways to manage, and
+achieve some recovering while moving in my work.
 
-Being able to recover while moving is NO excuse for not taking a vacation. I
-want to make sure I'm mentioning that right off the top. But sometimes a
-vacation isn't possible, and it's pretty impossible to plan far in advance for
-your down cycles. That being said, taking vacations is a really healthy
-practice, and can probably help you regulate the excess stress that can be a
-part of life.
+## Schedule (mini-)vacations
+
+I want to make sure I'm mentioning right off the top: being able to recover
+while moving is NO excuse for not taking a vacation. Taking time off, expanding
+your perspectives, learning new things - these are necessary for long-term
+success.
+
+But sometimes a vacation isn't possible, and it's difficult to plan far in
+advance for your down cycles. That being said, taking vacations is a really
+healthy practice, and can help you regulate stress.
 
 If you can, find ways to turn your weekends into vacations as well, especially
-if you start to feel like you need some recovery time. Turn your phone off,
+when you start to feel like you need some recovery time. Turn your phone off,
 turn down notifications, and remove email on the weekends. With the gmail app
 for iOS, you can even turn accounts on or off without removing the whole app. I
-remove specifically my work account from my phone when we'll be taking a
-weekend ski trip or hanging out with family, so I have no chance of being
-distracted. Truly free time from the expectations of work on weekends will help
-you recover faster.
+remove  my work account from my phone when we'll be taking a weekend ski trip
+or hanging out with family, so I have no chance of being distracted.
+
+Truly free time from the expectations of work on weekends will help you recover
+faster.
 
 ## Journal often
 
@@ -72,9 +76,10 @@ deterioration in my ability.
 
 ## Clean out the cruft
 
-The build-up of emails, to-do list items, and project context can really lead
-my into one of these down cycles. I find myself exhausted, despite plenty of
-sleep and almost no exhausting activity, because my mind is just so cramped.
+The build-up of emails, to-do list items, and project context can lead me right
+off the cliff and into one of these down cycles. I find myself exhausted,
+despite plenty of sleep and almost no exhausting activity, because my mind is
+just so damn _cramped_.
 
 If I'm feeling down, I revisit what I'm working on. Am I still excited? Almost
 always, that's a yes. I'm still very passionate about what I'm working on. If
@@ -101,6 +106,8 @@ training activity, and I now spend 2-3 mornings a week at the rock gym.
 For others, it's fiction reading, writing, running (I find that too cerebral),
 or trivia at a local bar. Whatever it is, make sure you've got protected time
 on your schedule for it each week.
+
+---
 
 I hope to be at this a long time, making a big impact while maintaining a
 healthy life around my work. Relying on vacations or sabbaticals is not enough
