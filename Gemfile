@@ -14,3 +14,4 @@ gem "foreman", "~> 0.63.0"
 gem "gemoji"
 gem "rake", "~> 10.1.0"
 gem 'pygments.rb', '~> 0.6.3'
+gem 'jekyll-paginate', '~> 1.1'

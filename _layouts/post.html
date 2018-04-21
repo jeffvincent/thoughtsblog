@@ -8,7 +8,7 @@ layout: base
       <div class='date'>
         <i class='icon-time'></i>
         <span>
-          {{ page.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
+          {{ page.content | number_of_words | append: ".0" | divided_by: 180 | round | append: " min read" }}
         </span>
       </div>
     </div>

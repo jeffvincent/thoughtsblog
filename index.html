@@ -18,7 +18,7 @@ homepage: true
         <li class='date_and_time'>
           <i class="icon-time"></i>
           <span>
-            {{ post.content | number_of_words append: '.0' | divided_by:180 | append: ' min read' }}
+            {{ post.content | number_of_words | append: '.0' | divided_by: 180 | round | append: ' min read' }}
           </span>
         </li>
       </ul>
