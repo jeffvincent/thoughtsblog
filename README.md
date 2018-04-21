@@ -1,10 +1,14 @@
-# A Beginner's Life #
-
-## Jekyll ##
+# beginner's life: a blog
 
 This blog is built on Jekyll: a static site generator based in Ruby. [Read more](https://github.com/mojombo/jekyll).
 
-## Learn to use Jekyll
+## how to run the blog
+
+Because of heavy mod, everything is in the rakefile. Run `rake build` to kick
+things off, `rake preview` to have a looksee, and `rake deploy` to send changes
+in Github and deploy to Heroku.
+
+## learn to use Jekyll
 
 If you like the look of this (it's pretty simple, which I like) here are some resources to check:
 
@@ -34,4 +38,3 @@ If you like the look of this (it's pretty simple, which I like) here are some re
 ### using unicorn with Heroku ###
 * http://kuon.goyman.com/2012/heroku_unicorn/
 * old custom buildpack: https://github.com/heroku/heroku-buildpack-ruby
-
