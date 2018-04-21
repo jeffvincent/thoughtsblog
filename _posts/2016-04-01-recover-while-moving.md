@@ -2,8 +2,7 @@
 layout: post
 title: "Recover while moving"
 description: |
-  When working on things for the long-term, it's important to manage
-  your energy.
+  On managing your energy for the long term. 
 category: time, work
 ---
 
